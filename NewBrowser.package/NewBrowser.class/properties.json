@@ -1,0 +1,22 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bar",
+		"classButton",
+		"methods",
+		"package",
+		"packageButton",
+		"protocolButton",
+		"class",
+		"protocol",
+		"text" ],
+	"name" : "NewBrowser",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

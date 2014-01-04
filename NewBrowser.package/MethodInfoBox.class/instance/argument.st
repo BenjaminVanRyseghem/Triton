@@ -1,0 +1,4 @@
+protocol
+argument
+
+	^ ':method |'

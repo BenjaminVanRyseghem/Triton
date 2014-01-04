@@ -1,0 +1,2 @@
+protocol
+inputMethod: aMethod

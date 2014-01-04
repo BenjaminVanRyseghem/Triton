@@ -1,0 +1,17 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"button",
+		"list",
+		"title",
+		"process" ],
+	"name" : "InfoBoxViewState",
+	"pools" : [
+		 ],
+	"super" : "InfoBoxState",
+	"type" : "normal" }

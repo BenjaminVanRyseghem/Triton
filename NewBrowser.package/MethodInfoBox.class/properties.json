@@ -1,0 +1,14 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inputMethod" ],
+	"name" : "MethodInfoBox",
+	"pools" : [
+		 ],
+	"super" : "InfoBox",
+	"type" : "normal" }

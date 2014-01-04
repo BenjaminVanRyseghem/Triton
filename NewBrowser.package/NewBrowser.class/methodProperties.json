@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 20:11" },
+	"instance" : {
+		"actualClass" : "BenjaminVanRyseghem 1/4/2014 19:27",
+		"addClassBox" : "BenjaminVanRyseghem 1/4/2014 20:18",
+		"addMenuItemsToWindowMenu:" : "BenjaminVanRyseghem 1/4/2014 20:18",
+		"addMethodBox" : "BenjaminVanRyseghem 1/4/2014 20:16",
+		"bar" : "BenjaminVanRyseghem 1/4/2014 19:28",
+		"classButton" : "BenjaminVanRyseghem 1/4/2014 19:28",
+		"initialize" : "BenjaminVanRyseghem 1/4/2014 20:07",
+		"initializePresenter" : "BenjaminVanRyseghem 1/4/2014 20:09",
+		"initializeWidgets" : "BenjaminVanRyseghem 1/4/2014 20:02",
+		"methods" : "BenjaminVanRyseghem 1/4/2014 19:28",
+		"packageButton" : "BenjaminVanRyseghem 1/4/2014 19:28",
+		"populateBar" : "BenjaminVanRyseghem 1/4/2014 20:09",
+		"popupClasses" : "BenjaminVanRyseghem 1/4/2014 19:46",
+		"popupPackages" : "BenjaminVanRyseghem 1/4/2014 19:41",
+		"popupProtocols" : "BenjaminVanRyseghem 1/4/2014 20:00",
+		"protocolButton" : "BenjaminVanRyseghem 1/4/2014 19:28",
+		"text" : "BenjaminVanRyseghem 1/4/2014 20:04" } }

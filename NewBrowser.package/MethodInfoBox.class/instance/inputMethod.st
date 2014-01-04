@@ -1,0 +1,4 @@
+accessing
+inputMethod
+
+	^ inputMethod value

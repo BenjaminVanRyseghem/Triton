@@ -1,0 +1,23 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ok",
+		"cancel",
+		"textField",
+		"openLabel",
+		"closeLabel",
+		"title",
+		"titleLabel",
+		"block",
+		"defaultTitleLabel",
+		"defaultTitle" ],
+	"name" : "InfoBoxEditState",
+	"pools" : [
+		 ],
+	"super" : "InfoBoxState",
+	"type" : "normal" }
