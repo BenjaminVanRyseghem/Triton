@@ -1,0 +1,4 @@
+protocol
+separatorAfter: anIndex
+
+	^ false

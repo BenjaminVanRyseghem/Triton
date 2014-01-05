@@ -1,0 +1,4 @@
+*NewBrowser
+lastModificationTime
+
+	^ self timeStamp
