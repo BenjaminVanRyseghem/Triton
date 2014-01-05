@@ -9,7 +9,7 @@ popupMethods
 				item 
 					name: 'Add method';
 					icon: Smalltalk ui icons smallAddIcon;
-					action: [ self halt ] ].
+					action: [ self addMethod ] ].
 			g addItem: [ :item | 
 				item 
 					name: 'Add class side method';

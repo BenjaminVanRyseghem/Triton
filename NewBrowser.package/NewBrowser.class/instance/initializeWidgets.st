@@ -28,7 +28,7 @@ initializeWidgets
 	text
 		aboutToStyle: true;
 		bindKeyCombination: $p command shift toAction: [ packageButton performAction ];
-		acceptBlock: [ :newText | self compileNewMethodFrom: newText ].
+		acceptBlock: [ :newText :notifyier | self compileNewMethodFrom: newText notifying: notifyier ].
 
 	methodButton
 		label: 'Method';

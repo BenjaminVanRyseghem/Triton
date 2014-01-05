@@ -13,8 +13,10 @@ popupProtocols
 					action: [ self addProtocol ] ] ];
 		addGroup: [ :g |	| protocols |
 			protocols := Set new.
-			protocols addAll: class value protocols.
-			protocols addAll: class value theMetaClass protocols.
+			class value hasMethods ifTrue: [ 
+				protocols addAll: class value protocols ].
+			class value theMetaClass hasMethods ifTrue: [ 
+				protocols addAll: class value theMetaClass protocols ].
 			protocols asArray sorted do: [ :e |
 				g addItem: [ :item | 
 					item 
