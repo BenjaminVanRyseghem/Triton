@@ -17,6 +17,6 @@ Some shortcuts are already available (even if not documented)
 - `Command+shift+$C`: open the class list
 - `Command+shift+$T`: open the protocol list
 - `Command+shift+$M`: open the methods list
-- 
+
 - `Command+N, Command+T`: add a new protocol
 - `Command+F, Command+C`: open class finder
