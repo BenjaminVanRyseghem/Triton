@@ -1,0 +1,4 @@
+*NewBrowser
+form
+
+	^ self labelGraphic

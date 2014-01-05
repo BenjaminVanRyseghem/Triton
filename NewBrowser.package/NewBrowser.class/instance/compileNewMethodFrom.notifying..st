@@ -1,10 +1,14 @@
 private
 compileNewMethodFrom: newText notifying: notifyier
-	| selector |
+	| selector actualProtocol |
+
+	actualProtocol := method value 
+		ifNil: [ protocol value ]
+		ifNotNil: [ self actualMethod protocol ].
 
 	selector :=  abstractTool
 		compileANewMethodInClass: self actualClass
-		categorized: self actualMethod protocol
+		categorized: actualProtocol
 		from: newText asString
 		notifyng: notifyier.
 		

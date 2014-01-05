@@ -10,12 +10,13 @@ popupClasses
 					name: 'Add class';
 					icon: Smalltalk ui icons smallAddIcon;
 					action: [ abstractTool addClassIn: package value ] ] ];
-		addGroup: [ :g |
-			(package value classes sorted: [ :a :b | a name < b name ]) do: [ :e |
+		addGroup: [ :g || hierarchy |
+			hierarchy := self buildPackageHierarchyFor: package value.
+			hierarchy sortedElements do: [ :e |
 				g addItem: [ :item | 
 					item 
-						name: e name asString;
-						icon: Smalltalk ui icons classIcon;
+						name: (self buildTabbedNameOf: e in: hierarchy);
+						icon: (self classIconFor: e) form;
 						action: [ class value: e ] ] ] ].
 			
 	menu openWithSpecAt: classButton widget widget bottomLeft.
