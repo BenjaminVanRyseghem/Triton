@@ -3,7 +3,7 @@ initialize
 	
 	computationBlock := [ #() ] asValueHolder.
 	computationBlock whenChangedDo: [ self updateView ].
-	context := nil asValueHolder.
+	context := InfoContext new asValueHolder.
 	
 	title := [ '' ] asValueHolder.
 	defaultTitle := '' asValueHolder.
