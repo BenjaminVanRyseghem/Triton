@@ -17,7 +17,8 @@
 		"method",
 		"methodButton",
 		"abstractTool",
-		"classSide" ],
+		"classSide",
+		"nautilusCache" ],
 	"name" : "NewBrowser",
 	"pools" : [
 		 ],

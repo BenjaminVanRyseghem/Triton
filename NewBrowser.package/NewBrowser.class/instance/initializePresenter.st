@@ -11,15 +11,20 @@ initializePresenter
 		protocol value: nil.
 		c
 			ifNil: [ 
-				classButton label: 'Class'.
+				classButton 
+					icon:self defaultClassIcon;
+					label: 'Class'.
 				protocol value: nil ]
 			ifNotNil: [ 
-				classButton label: c name asString.
+				classButton 
+					label: c name asString;
+					icon: (self classIconFor:c).
 				protocol value: AllProtocol defaultName asString ].
 		text behavior: c.
 		self newContext ].
 
 	protocol whenChangedDo: [ :p |
+		method value: nil.
 		 p
 			ifNil: [ protocolButton label: 'Protocol' ]
 			ifNotNil: [ protocolButton label: p ].

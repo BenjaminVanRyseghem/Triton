@@ -11,7 +11,7 @@ popupClasses
 					icon: Smalltalk ui icons smallAddIcon;
 					action: [ abstractTool addClassIn: package value ] ] ];
 		addGroup: [ :g |
-			package value classes sorted do: [ :e |
+			(package value classes sorted: [ :a :b | a name < b name ]) do: [ :e |
 				g addItem: [ :item | 
 					item 
 						name: e name asString;

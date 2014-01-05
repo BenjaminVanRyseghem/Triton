@@ -15,7 +15,7 @@ initializeWidgets
 
 	classButton
 		label: 'Class';
-		icon: Smalltalk ui icons classIcon;
+		icon: self defaultClassIcon;
 		shortcut: $c command shift;
 		action: [ self popupClasses ].
 

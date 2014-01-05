@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"hierarchy" : "BenjaminVanRyseghem 1/5/2014 17:02",
+		"initialize" : "BenjaminVanRyseghem 1/5/2014 17:12",
+		"setCachedHierarchyClass:" : "BenjaminVanRyseghem 1/5/2014 17:00",
+		"showView" : "BenjaminVanRyseghem 1/5/2014 16:58" } }

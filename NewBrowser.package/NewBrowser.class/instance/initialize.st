@@ -7,6 +7,7 @@ initialize
 	method := nil asValueHolder.
 	classSide := false asValueHolder.
 	abstractTool := AbstractTool new.
+	nautilusCache := NautilusUI new.
 	
 	super initialize.
 	bar := BarManager new.

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hierarchy" ],
-	"name" : "HierarchyClassInfoBox",
+		 ],
+	"name" : "InfoBoxHierarchyListState",
 	"pools" : [
 		 ],
-	"super" : "ClassInfoBox",
+	"super" : "InfoBoxListState",
 	"type" : "normal" }
