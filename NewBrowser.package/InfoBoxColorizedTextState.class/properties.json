@@ -1,0 +1,14 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "InfoBoxColorizedTextState",
+	"pools" : [
+		 ],
+	"super" : "InfoBoxTextState",
+	"type" : "normal" }

@@ -6,10 +6,12 @@
 		 ],
 	"commentStamp" : "BenjaminVanRyseghem 1/5/2014 16:31",
 	"instvars" : [
-		"inputClass",
-		"lastSeparators" ],
-	"name" : "ImplementorInfoBox",
+		"button",
+		"title",
+		"process",
+		"text" ],
+	"name" : "InfoBoxTextState",
 	"pools" : [
 		 ],
-	"super" : "MethodInfoBox",
+	"super" : "InfoBoxState",
 	"type" : "normal" }

@@ -10,9 +10,11 @@ defaultSpec
 				] height: self toolbarHeight;
 				newRow: [ :r | 
 					r
-						add: #text;
+						add: #classBar right: 0.75;
 						addSplitter;
-						add: #bar
+						add: #text left: 0.25 right: 0.25;
+						addSplitter;
+						add: #methodBar left: 0.75
 				]
 		];
 		yourself

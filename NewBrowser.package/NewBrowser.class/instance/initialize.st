@@ -9,6 +9,6 @@ initialize
 	abstractTool := AbstractTool new.
 	
 	super initialize.
-	self populateBar.
+	bar := BarManager new.
 	
 	self registerToEvents

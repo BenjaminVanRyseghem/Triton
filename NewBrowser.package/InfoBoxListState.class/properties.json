@@ -10,7 +10,7 @@
 		"list",
 		"title",
 		"process" ],
-	"name" : "InfoBoxViewState",
+	"name" : "InfoBoxListState",
 	"pools" : [
 		 ],
 	"super" : "InfoBoxState",

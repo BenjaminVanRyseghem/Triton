@@ -1,0 +1,14 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenjaminVanRyseghem 1/5/2014 16:42",
+	"instvars" : [
+		 ],
+	"name" : "ClassCommentInfoBox",
+	"pools" : [
+		 ],
+	"super" : "ClassInfoBox",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HierarchyClassInfoBox",
+	"pools" : [
+		 ],
+	"super" : "ClassInfoBox",
+	"type" : "normal" }

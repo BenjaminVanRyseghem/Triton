@@ -11,4 +11,7 @@ compileNewMethodFrom: newText notifying: notifyier
 	selector ifNil: [ 
 		text hasUnacceptedEdits: true.
 		^ false ].
+	
+	selector = method value ifFalse: [ method value: selector ].
+	
 	text changed: #clearUserEdits.

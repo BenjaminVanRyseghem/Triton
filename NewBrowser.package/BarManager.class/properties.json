@@ -1,0 +1,15 @@
+{
+	"category" : "NewBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classBar",
+		"methodBar" ],
+	"name" : "BarManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

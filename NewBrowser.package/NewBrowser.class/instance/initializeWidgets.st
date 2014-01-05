@@ -5,7 +5,6 @@ initializeWidgets
 	classButton := self newButton.
 	protocolButton := self newButton.
 	methodButton := self newButton.
-	bar := self instantiate: BoxesBar.
 	text := self newText.
 
 	packageButton
@@ -33,6 +32,7 @@ initializeWidgets
 	methodButton
 		label: 'Method';
 		shortcut: $m command shift;
+		menu: self buildMethodMenu;
 		action: [ self popupMethods ].
 
 	self focusOrder

@@ -1,6 +1,6 @@
-private
-populateBar
+initialize
+initializeMethodBoxes
 
-	bar 
+	methodBar 
 		addBox: SenderInfoBox new;
 		addBox: ImplementorInfoBox new

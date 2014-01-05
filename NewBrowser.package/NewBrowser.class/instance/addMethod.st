@@ -2,6 +2,8 @@ private-actions
 addMethod
 	| methodName actualProtocol |
 	
+	self okToChange ifFalse: [ ^ self ].
+	
 	methodName := UIManager default 
 		request: 'Method signature'
 		initialAnswer: 'selector: argument' 
@@ -12,8 +14,5 @@ addMethod
 	actualProtocol = AllProtocol defaultName
 		ifTrue: [ actualProtocol := Protocol unclassified ].
 	
-	method value: (class value
-		compile: methodName
-		classified: actualProtocol
-		notifying: text)
-	
+	text text: methodName.
+	text takeKeyboardFocus.

@@ -2,5 +2,5 @@ protocol
 computedItems
 
 	^ self inputClass
-		ifNil: [ #() ]
+		ifNil: [ self defaultValue ]
 		ifNotNil: [ :klass | self computationBlock cull: klass ]
