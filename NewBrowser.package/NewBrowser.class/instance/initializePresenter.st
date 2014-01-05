@@ -3,30 +3,34 @@ initializePresenter
 
 	package whenChangedDo: [ :p |
 		p
-			ifNil: [ packageButton label: '' ]
-			ifNotNil: [ packageButton label: p name asString ] ].
+			ifNil: [ packageButton label: 'Package' ]
+			ifNotNil: [ packageButton label: p name asString ].
+		self newContext ].
 	
 	class whenChangedDo: [ :c |
+		protocol value: nil.
 		c
 			ifNil: [ 
-				classButton label: ''.
+				classButton label: 'Class'.
 				protocol value: nil ]
 			ifNotNil: [ 
 				classButton label: c name asString.
-				protocol value: AllProtocol defaultName asString ] ].
-		
-	protocol whenChangedDo: [ :p | 
-		methods 
-			items: ((class value methodsInProtocol: p) sorted: [ :a :b | a selector <= b selector ]);
-			resetSelection ].
-	
+				protocol value: AllProtocol defaultName asString ].
+		text behavior: c.
+		self newContext ].
+
 	protocol whenChangedDo: [ :p |
-		p
-			ifNil: [ protocolButton label: '' ]
-			ifNotNil: [ protocolButton label: p ] ].
+		 p
+			ifNil: [ protocolButton label: 'Protocol' ]
+			ifNotNil: [ protocolButton label: p ].
+		self newContext ].
 		
-	methods whenSelectedItemChanged: [ :item | 
-		bar inputMethod: item.
+	method whenChangedDo: [ :item |
 		item 
-			ifNil: [ text text: '' ]
-			ifNotNil: [ text text: item sourceCode ] ]
+			ifNil: [
+				text text: ''.
+				methodButton label: 'Method' ]
+			ifNotNil: [
+				text text: self actualMethod sourceCode.
+				methodButton label: item ].
+		self newContext ]

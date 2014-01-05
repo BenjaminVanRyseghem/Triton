@@ -15,8 +15,6 @@ initializeWidgets
 	defaultTitleLabel := self newLabel.
 	defaultTitle := self newTextInput.
 	
-	
-	
 	ok
 		icon: Smalltalk ui icons smallOkIcon;
 		action: [ self validate ].
@@ -39,4 +37,11 @@ initializeWidgets
 	defaultTitleLabel text: 'Default title: '.
 	defaultTitle 
 		autoAccept: true;
-		entryCompletion: nil
+		entryCompletion: nil.
+		
+	self focusOrder
+		add: defaultTitle;
+		add: title;
+		add: textField;
+		add: ok;
+		add: cancel

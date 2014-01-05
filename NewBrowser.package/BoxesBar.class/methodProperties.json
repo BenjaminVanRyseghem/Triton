@@ -2,12 +2,12 @@
 	"class" : {
 		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 19:08" },
 	"instance" : {
-		"addBox:" : "BenjaminVanRyseghem 1/4/2014 19:11",
+		"addBox:" : "BenjaminVanRyseghem 1/5/2014 01:30",
 		"boxes" : "BenjaminVanRyseghem 1/4/2014 19:09",
 		"boxes:" : "BenjaminVanRyseghem 1/4/2014 19:09",
+		"context:" : "BenjaminVanRyseghem 1/5/2014 03:10",
 		"doesNotUnderstand:" : "BenjaminVanRyseghem 1/4/2014 19:15",
 		"initialize" : "BenjaminVanRyseghem 1/4/2014 19:03",
-		"initializeWidgets" : "BenjaminVanRyseghem 1/4/2014 19:07",
-		"inputMethod:" : "BenjaminVanRyseghem 1/4/2014 19:17",
+		"initializeWidgets" : "BenjaminVanRyseghem 1/5/2014 01:21",
 		"specLayout" : "BenjaminVanRyseghem 1/4/2014 19:13",
-		"updateView" : "BenjaminVanRyseghem 1/4/2014 19:12" } }
+		"updateView" : "BenjaminVanRyseghem 1/5/2014 01:22" } }

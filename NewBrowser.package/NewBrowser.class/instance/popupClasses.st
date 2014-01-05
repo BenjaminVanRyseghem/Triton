@@ -2,6 +2,7 @@ private
 popupClasses
 	| menu |
 	
+	package value ifNil: [ ^ self ].
 	menu := MenuModel new
 		addGroup: [ :g |
 			g addItem: [ :item | 
@@ -17,4 +18,5 @@ popupClasses
 						icon: Smalltalk ui icons classIcon;
 						action: [ class value: e ] ] ] ].
 			
-	menu openWithSpecAt: classButton widget widget bottomLeft
+	menu openWithSpecAt: classButton widget widget bottomLeft.
+	menu applyTo: self.

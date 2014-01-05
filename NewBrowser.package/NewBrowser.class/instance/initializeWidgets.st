@@ -4,21 +4,43 @@ initializeWidgets
 	packageButton := self newButton.
 	classButton := self newButton.
 	protocolButton := self newButton.
-	methods := self newList.
+	methodButton := self newButton.
 	bar := self instantiate: BoxesBar.
 	text := self newText.
-	
-	packageButton 
+
+	packageButton
 		label: 'Package';
+		icon: Smalltalk ui icons packageIcon;
+		shortcut: $p command shift;
 		action: [ self popupPackages ].
-		
+
 	classButton
 		label: 'Class';
+		icon: Smalltalk ui icons classIcon;
+		shortcut: $c command shift;
 		action: [ self popupClasses ].
-		
+
 	protocolButton
-		label: 'Class';
+		label: 'Protocol';
+		shortcut: $t command shift;
 		action: [ self popupProtocols ].
+
+	text
+		aboutToStyle: true;
+		bindKeyCombination: $p command shift toAction: [ packageButton performAction ];
+		acceptBlock: [ :newText | self compileNewMethodFrom: newText ].
+
+	methodButton
+		label: 'Method';
+		shortcut: $m command shift;
+		action: [ self popupMethods ].
+
+	self focusOrder
+		add: packageButton;
+		add: classButton;
+		add: protocolButton;
+		add: methodButton;
+		add: text;
+		add: bar.
 		
-	methods
-		displayBlock: [ :item | item selector, ' (', item protocol ,')' ]
+	self bindKeyCombination: $f command, $c command toAction: [ self findClass ]

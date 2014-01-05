@@ -8,13 +8,16 @@
 	"instvars" : [
 		"bar",
 		"classButton",
-		"methods",
 		"package",
 		"packageButton",
 		"protocolButton",
 		"class",
 		"protocol",
-		"text" ],
+		"text",
+		"method",
+		"methodButton",
+		"abstractTool",
+		"classSide" ],
 	"name" : "NewBrowser",
 	"pools" : [
 		 ],

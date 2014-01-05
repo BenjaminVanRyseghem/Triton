@@ -1,19 +1,25 @@
 private
 popupProtocols
 	| menu |
-	
+
+	class value ifNil: [ ^ self ].
 	menu := MenuModel new
 		addGroup: [ :g |
 			g addItem: [ :item | 
 				item 
 					name: 'Add protocol';
 					icon: Smalltalk ui icons smallAddIcon;
-					action: [ self halt ] ] ];
-		addGroup: [ :g |
-			class value protocols sorted do: [ :e |
+					shortcut: $n command, $t command;
+					action: [ self addProtocol ] ] ];
+		addGroup: [ :g |	| protocols |
+			protocols := Set new.
+			protocols addAll: class value protocols.
+			protocols addAll: class value theMetaClass protocols.
+			protocols asArray sorted do: [ :e |
 				g addItem: [ :item | 
 					item 
 						name: e;
 						action: [ protocol value: e ] ] ] ].
 			
-	menu openWithSpecAt: protocolButton widget widget bottomLeft
+	menu openWithSpecAt: protocolButton widget widget bottomLeft.
+	menu applyTo: self.

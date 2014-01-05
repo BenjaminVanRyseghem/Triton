@@ -17,4 +17,5 @@ popupPackages
 						icon: Smalltalk ui icons packageIcon;
 						action: [ package value: e ] ] ] ].
 			
-	menu openWithSpecAt: packageButton widget widget bottomLeft
+	menu openWithSpecAt: packageButton widget widget bottomLeft.
+	menu applyTo: self.

@@ -3,17 +3,16 @@ defaultSpec
 	<spec: #default>
 	
 	^ SpecLayout composed
-		newRow: [ :row |
-			row
-				newColumn: [ :col |
-					col 
-						newRow: [ :r |
-							r add: #packageButton; add: #classButton; add: #protocolButton 
-						] height: self toolbarHeight;
-						add: #methods;
-						add: #text
-				] right: 0.3;
-				addSplitter;
-				add: #bar left: 0.7
+		newColumn: [ :col |
+			col
+				newRow: [ :r |
+					r add: #packageButton; add: #classButton; add: #protocolButton; add: #methodButton
+				] height: self toolbarHeight;
+				newRow: [ :r | 
+					r
+						add: #text;
+						addSplitter;
+						add: #bar
+				]
 		];
 		yourself

@@ -1,4 +1,0 @@
-accessing
-inputClass
-
-	^ inputClass value

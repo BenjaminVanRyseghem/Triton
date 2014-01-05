@@ -1,4 +1,5 @@
 protocol
 addBox: aBox
 
-	boxes add: aBox
+	boxes add: aBox.
+	aBox owner: self

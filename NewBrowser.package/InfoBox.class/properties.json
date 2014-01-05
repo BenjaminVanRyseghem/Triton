@@ -9,7 +9,8 @@
 		"computationBlock",
 		"defaultTitle",
 		"title",
-		"state" ],
+		"state",
+		"context" ],
 	"name" : "InfoBox",
 	"pools" : [
 		 ],
