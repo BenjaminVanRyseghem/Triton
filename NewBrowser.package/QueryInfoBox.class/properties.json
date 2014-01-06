@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"button",
-		"list",
-		"title",
-		"process" ],
-	"name" : "InfoBoxListState",
+		"inputClass",
+		"lastSeparators",
+		"queryResult" ],
+	"name" : "QueryInfoBox",
 	"pools" : [
 		 ],
-	"super" : "InfoBoxState",
+	"super" : "MethodInfoBox",
 	"type" : "normal" }

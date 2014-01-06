@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"button",
-		"list",
-		"title",
-		"process" ],
-	"name" : "InfoBoxListState",
+		"groups" ],
+	"name" : "MethodsSortingResult",
 	"pools" : [
 		 ],
-	"super" : "InfoBoxState",
+	"super" : "Object",
 	"type" : "normal" }

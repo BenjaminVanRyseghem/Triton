@@ -2,10 +2,10 @@ initialization
 initializeWidgets
 
 	title := self newLabel.
-	list := self instantiate: NewListModel.
+	list := self newList.
 	button := self newButton.
 	
-	list separatorBlock: [ :item :index | self box separatorAfter: index ].
+	list backgroundColorBlock: [ :item :index | self box backgroundColorFor: item at: index ].
 	
 	button 
 		icon: Smalltalk ui icons configurationIcon;

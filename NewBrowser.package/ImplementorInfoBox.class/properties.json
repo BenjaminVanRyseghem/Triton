@@ -1,15 +1,14 @@
 {
-	"category" : "NewBrowser",
+	"category" : "NewBrowser-Boxes",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"inputClass",
-		"lastSeparators" ],
+		 ],
 	"name" : "ImplementorInfoBox",
 	"pools" : [
 		 ],
-	"super" : "MethodInfoBox",
+	"super" : "QueryInfoBox",
 	"type" : "normal" }

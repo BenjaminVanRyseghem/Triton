@@ -2,8 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "BenjaminVanRyseghem 1/5/2014 03:02",
-		"isEditable" : "BenjaminVanRyseghem 1/6/2014 14:27",
-		"separatorAfter:" : "BenjaminVanRyseghem 1/5/2014 00:00",
-		"sortSendersOf:" : "BenjaminVanRyseghem 1/5/2014 00:00",
-		"sortSendersOf:with:" : "BenjaminVanRyseghem 1/5/2014 03:14" } }
+		"initialize" : "BenjaminVanRyseghem 1/6/2014 15:02",
+		"retrieveDataFor:" : "BenjaminVanRyseghem 1/6/2014 15:04" } }

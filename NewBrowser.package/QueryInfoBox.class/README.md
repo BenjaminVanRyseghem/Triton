@@ -1,0 +1,1 @@
+I am an abstract info box presenting data computed about a method, and rendering the result as a list ordered by groups

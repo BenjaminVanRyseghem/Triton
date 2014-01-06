@@ -1,4 +1,0 @@
-protocol
-separatorAfter: anIndex
-
-	^ false

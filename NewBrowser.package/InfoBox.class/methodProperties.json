@@ -3,6 +3,7 @@
 		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 12:51" },
 	"instance" : {
 		"argument" : "BenjaminVanRyseghem 1/4/2014 13:28",
+		"backgroundColorFor:at:" : "BenjaminVanRyseghem 1/6/2014 16:26",
 		"computationBlock" : "BenjaminVanRyseghem 1/4/2014 12:31",
 		"computationBlock:" : "BenjaminVanRyseghem 1/4/2014 12:31",
 		"computedItems" : "BenjaminVanRyseghem 1/4/2014 12:53",
@@ -18,7 +19,6 @@
 		"inputPackage" : "BenjaminVanRyseghem 1/5/2014 03:13",
 		"inputProtocol" : "BenjaminVanRyseghem 1/5/2014 03:13",
 		"isEditable" : "BenjaminVanRyseghem 1/6/2014 14:21",
-		"separatorAfter:" : "BenjaminVanRyseghem 1/4/2014 23:56",
 		"showEdit" : "BenjaminVanRyseghem 1/4/2014 12:36",
 		"showView" : "BenjaminVanRyseghem 1/5/2014 16:25",
 		"state" : "BenjaminVanRyseghem 1/4/2014 12:52",
