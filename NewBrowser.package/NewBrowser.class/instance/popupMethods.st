@@ -31,6 +31,7 @@ popupMethods
 						action: [ 
 							method value: e selector.
 							classSide value: true ] ] ] ].
-			
+	
+	menu applyTo: self.		
 	menu openWithSpecAt: methodButton widget widget bottomLeft.
-	menu applyTo: self.
+	text takeKeyboardFocus

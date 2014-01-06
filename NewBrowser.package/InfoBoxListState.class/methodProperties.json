@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 18:05" },
+		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 18:05",
+		"notEditableSpec" : "BenjaminVanRyseghem 1/6/2014 14:25" },
 	"instance" : {
 		"button" : "BenjaminVanRyseghem 1/4/2014 12:52",
+		"defaultSpecSelector" : "BenjaminVanRyseghem 1/6/2014 14:23",
 		"initialize" : "BenjaminVanRyseghem 1/4/2014 18:31",
 		"initializeWidgets" : "BenjaminVanRyseghem 1/5/2014 01:19",
 		"list" : "BenjaminVanRyseghem 1/4/2014 12:52",

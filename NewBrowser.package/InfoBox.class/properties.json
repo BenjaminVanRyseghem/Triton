@@ -4,13 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"computationBlock",
 		"defaultTitle",
 		"title",
 		"state",
-		"context" ],
+		"context",
+		"action" ],
 	"name" : "InfoBox",
 	"pools" : [
 		 ],

@@ -20,7 +20,9 @@ initializePresenter
 					label: c name asString;
 					icon: (self classIconFor:c).
 				protocol value: AllProtocol defaultName asString ].
-		text behavior: c.
+		text 
+			behavior: c;
+			doItReceiver: c.
 		self newContext ].
 
 	protocol whenChangedDo: [ :p |
