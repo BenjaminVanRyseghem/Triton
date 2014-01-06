@@ -15,6 +15,7 @@ To open the new browser, simply evaluate:
     
 ### Tips
 
+#### Shortcuts
 Some shortcuts are already available (even if not documented)
 
 - `Command+shift+$P`: open the packages list
@@ -23,3 +24,12 @@ Some shortcuts are already available (even if not documented)
 - `Command+shift+$M`: open the methods list
 - `Command+N, Command+T`: add a new protocol
 - `Command+F, Command+C`: open class finder
+
+#### Snippets
+
+To open a button opening a `NewBrowser`
+
+    ButtonModel new
+    	action: [ NewBrowser new openWithSpec ];
+    	label: 'Open NewBrowser';
+    	openWithSpec
