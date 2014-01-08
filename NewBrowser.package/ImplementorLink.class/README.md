@@ -1,0 +1,1 @@
+I represent a navigation through the implementors of the current selector

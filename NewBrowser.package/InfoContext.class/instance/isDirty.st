@@ -1,0 +1,4 @@
+testing
+isDirty
+
+	^ dirty ~= nil

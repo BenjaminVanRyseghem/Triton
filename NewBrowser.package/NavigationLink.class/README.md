@@ -1,0 +1,1 @@
+I am an abstract conceptualization of a navigation between two context of a browser

@@ -1,0 +1,4 @@
+protocol
+stringDescription
+
+	^ ' -- ', self shortName , ' --> '

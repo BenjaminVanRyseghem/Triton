@@ -1,0 +1,1 @@
+I am a Null Pattern Object navigation link

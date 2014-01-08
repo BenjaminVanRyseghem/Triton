@@ -1,0 +1,14 @@
+{
+	"category" : "NewBrowser-Navigation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenjaminVanRyseghem 1/8/2014 00:51",
+	"instvars" : [
+		 ],
+	"name" : "FinalNode",
+	"pools" : [
+		 ],
+	"super" : "NavigationNode",
+	"type" : "normal" }
