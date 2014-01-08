@@ -21,7 +21,9 @@ popupProtocols
 				g addItem: [ :item | 
 					item 
 						name: e;
-						action: [ protocol value: e ] ] ] ].
+						action: [ 
+							protocol value: e.
+							self registerManualNavigation ] ] ] ].
 			
 	menu openWithSpecAt: protocolButton widget widget bottomLeft.
 	menu applyTo: self.

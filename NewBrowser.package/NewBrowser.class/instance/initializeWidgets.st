@@ -6,6 +6,7 @@ initializeWidgets
 	protocolButton := self newButton.
 	methodButton := self newButton.
 	text := self newText.
+	timelineWidget := self newText.
 
 	packageButton
 		label: 'Package';
@@ -34,6 +35,8 @@ initializeWidgets
 		shortcut: $m command shift;
 		menu: self buildMethodMenu;
 		action: [ self popupMethods ].
+
+	timelineWidget enabled: false.
 
 	self focusOrder
 		add: packageButton;

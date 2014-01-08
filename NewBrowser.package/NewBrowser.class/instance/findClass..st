@@ -9,4 +9,5 @@ findClass: aSearchInstance
 	aClass ifNil: [ ^ self ].
 
 	self package: aClass package.
-	self browsedClass: aClass
+	self browsedClass: aClass.
+	self registerManualNavigation

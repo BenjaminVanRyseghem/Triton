@@ -1,11 +1,12 @@
 {
-	"category" : "NewBrowser",
+	"category" : "NewBrowser-Context",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
+		"dirty",
 		"klass",
 		"method",
 		"package",

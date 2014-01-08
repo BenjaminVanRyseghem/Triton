@@ -4,8 +4,7 @@ initializePresenter
 	package whenChangedDo: [ :p |
 		p
 			ifNil: [ packageButton label: 'Package' ]
-			ifNotNil: [ packageButton label: p name asString ].
-		self newContext ].
+			ifNotNil: [ packageButton label: p name asString ] ].
 	
 	class whenChangedDo: [ :c |
 		protocol value: nil.
@@ -22,15 +21,13 @@ initializePresenter
 				protocol value: AllProtocol defaultName asString ].
 		text 
 			behavior: c;
-			doItReceiver: c.
-		self newContext ].
+			doItReceiver: c ].
 
 	protocol whenChangedDo: [ :p |
 		method value: nil.
 		 p
 			ifNil: [ protocolButton label: 'Protocol' ]
-			ifNotNil: [ protocolButton label: p ].
-		self newContext ].
+			ifNotNil: [ protocolButton label: p ] ].
 		
 	method whenChangedDo: [ :item |
 		item 
@@ -39,5 +36,4 @@ initializePresenter
 				methodButton label: 'Method' ]
 			ifNotNil: [
 				text text: self actualMethod sourceCode.
-				methodButton label: item ].
-		self newContext ]
+				methodButton label: item ] ]

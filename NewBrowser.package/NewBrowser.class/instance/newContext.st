@@ -1,5 +1,9 @@
-private
+private-navigation
 newContext
-
+	| context |
+	
 	self updateTitle.
-	bar context: self newInfoBoxContext
+	context := self newInfoBoxContext.
+	bar context: context.
+	
+	^ context

@@ -12,7 +12,10 @@ defaultSpec
 					r
 						add: #classBar right: 0.75;
 						addSplitter;
-						add: #text left: 0.25 right: 0.25;
+						newColumn: [ :c | 
+							c 
+								add: #text;
+								add: #timelineWidget height: 30 ] left: 0.25 right: 0.25;
 						addSplitter;
 						add: #methodBar left: 0.75
 				]

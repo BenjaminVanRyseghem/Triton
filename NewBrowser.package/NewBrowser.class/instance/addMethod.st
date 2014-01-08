@@ -16,3 +16,4 @@ addMethod
 	
 	text text: methodName.
 	text takeKeyboardFocus.
+	timeline methodAdded

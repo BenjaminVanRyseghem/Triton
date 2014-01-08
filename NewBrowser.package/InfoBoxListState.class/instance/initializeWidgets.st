@@ -5,7 +5,9 @@ initializeWidgets
 	list := self newList.
 	button := self newButton.
 	
-	list backgroundColorBlock: [ :item :index | self box backgroundColorFor: item at: index ].
+	list 
+		whenSelectedItemChanged: [ :item :index | self box action cull: item cull: index ];
+		backgroundColorBlock: [ :item :index | self box backgroundColorFor: item at: index ].
 	
 	button 
 		icon: Smalltalk ui icons configurationIcon;

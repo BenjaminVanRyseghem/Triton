@@ -22,7 +22,8 @@ popupMethods
 						name: e selector;
 						action: [ 
 							method value: e selector.
-							classSide value: false ] ] ] ];
+							classSide value: false.
+							self registerManualNavigation ] ] ] ];
 		addGroup: [ :g |
 			((class value theMetaClass methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
 				g addItem: [ :item | 
@@ -30,7 +31,8 @@ popupMethods
 						name: e selector;
 						action: [ 
 							method value: e selector.
-							classSide value: true ] ] ] ].
+							classSide value: true.
+							self registerManualNavigation ] ] ] ].
 	
 	menu applyTo: self.		
 	menu openWithSpecAt: methodButton widget widget bottomLeft.

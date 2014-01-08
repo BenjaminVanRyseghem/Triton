@@ -1,4 +1,4 @@
 private-colors
 classColor
 
-	^ Color fromHexString: 'ababab'
+	^ Color fromHexString: 'e0e0e0'

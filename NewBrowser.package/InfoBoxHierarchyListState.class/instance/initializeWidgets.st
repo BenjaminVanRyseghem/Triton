@@ -4,4 +4,6 @@ initializeWidgets
 	super initializeWidgets.
 	list := self newList.
 	
-	list displayBlock: [ :each | self buildTabbedNameOf: each ]
+	list 
+		whenSelectedItemChanged: [ :item :index | self box action cull: item cull: index ];
+		displayBlock: [ :each | self buildTabbedNameOf: each ]

@@ -19,3 +19,4 @@ compileNewMethodFrom: newText notifying: notifyier
 	selector = method value ifFalse: [ method value: selector ].
 	
 	text changed: #clearUserEdits.
+	timeline methodModified

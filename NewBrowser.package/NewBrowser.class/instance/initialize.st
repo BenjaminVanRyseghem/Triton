@@ -8,8 +8,11 @@ initialize
 	classSide := false asValueHolder.
 	abstractTool := AbstractTool new.
 	nautilusCache := NautilusUI new.
+	timeline := Timeline new.
+	
+	timeline whenChangedDo: [ self updateTimeline ].
 	
 	super initialize.
-	bar := BarManager new.
+	bar := BarManager on: self.
 	
 	self registerToEvents

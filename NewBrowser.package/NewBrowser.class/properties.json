@@ -18,7 +18,9 @@
 		"methodButton",
 		"abstractTool",
 		"classSide",
-		"nautilusCache" ],
+		"nautilusCache",
+		"timeline",
+		"timelineWidget" ],
 	"name" : "NewBrowser",
 	"pools" : [
 		 ],

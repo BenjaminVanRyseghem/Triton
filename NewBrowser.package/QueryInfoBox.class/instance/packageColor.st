@@ -1,4 +1,4 @@
 private-colors
 packageColor
 
-	^ Color fromHexString: 'cccccc'
+	^ Color fromHexString: 'cdcdcd'

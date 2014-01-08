@@ -2,12 +2,18 @@
 	"class" : {
 		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 19:08" },
 	"instance" : {
-		"addBox:" : "BenjaminVanRyseghem 1/5/2014 01:30",
+		"addBox:" : "BenjaminVanRyseghem 1/7/2014 23:21",
 		"boxes" : "BenjaminVanRyseghem 1/4/2014 19:09",
 		"boxes:" : "BenjaminVanRyseghem 1/4/2014 19:09",
 		"context:" : "BenjaminVanRyseghem 1/5/2014 03:10",
 		"doesNotUnderstand:" : "BenjaminVanRyseghem 1/4/2014 19:15",
+		"hierarchyChanged:" : "BenjaminVanRyseghem 1/8/2014 00:41",
+		"implementorChanged:" : "BenjaminVanRyseghem 1/7/2014 23:32",
 		"initialize" : "BenjaminVanRyseghem 1/4/2014 19:03",
 		"initializeWidgets" : "BenjaminVanRyseghem 1/5/2014 01:21",
+		"registerHierarchyBox:" : "BenjaminVanRyseghem 1/7/2014 23:33",
+		"registerImplementorBox:" : "BenjaminVanRyseghem 1/7/2014 23:33",
+		"registerSenderBox:" : "BenjaminVanRyseghem 1/7/2014 23:28",
+		"senderChanged:" : "BenjaminVanRyseghem 1/7/2014 23:32",
 		"specLayout" : "BenjaminVanRyseghem 1/4/2014 19:13",
 		"updateView" : "BenjaminVanRyseghem 1/5/2014 01:22" } }
