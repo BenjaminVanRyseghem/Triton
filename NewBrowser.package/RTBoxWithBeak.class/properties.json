@@ -1,0 +1,14 @@
+{
+	"category" : "NewBrowser-Navigation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "RTBoxWithBeak",
+	"pools" : [
+		 ],
+	"super" : "RTBox",
+	"type" : "normal" }

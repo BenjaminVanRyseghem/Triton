@@ -1,12 +1,13 @@
 initialization
 initializeWidgets
-
+	| rtTimeline |
+	
 	packageButton := self newButton.
 	classButton := self newButton.
 	protocolButton := self newButton.
 	methodButton := self newButton.
 	text := self newText.
-	timelineWidget := self newText.
+	timelineWidget := self instantiate: RoassalModel.
 
 	packageButton
 		label: 'Package';
@@ -36,7 +37,11 @@ initializeWidgets
 		menu: self buildMethodMenu;
 		action: [ self popupMethods ].
 
-	timelineWidget enabled: false.
+	rtTimeline := RTTimeline new
+		timeline: timeline;
+		yourself.
+		
+	timelineWidget script: [ :view :canvas | rtTimeline drawTimelineOn: view canvas: canvas ].
 
 	self focusOrder
 		add: packageButton;
