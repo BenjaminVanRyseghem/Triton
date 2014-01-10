@@ -1,4 +1,0 @@
-accessing
-boxes
-
-	^ boxes value

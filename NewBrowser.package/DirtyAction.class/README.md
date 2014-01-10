@@ -1,1 +1,0 @@
-I am an abstract class representing an action turning the current context dirty

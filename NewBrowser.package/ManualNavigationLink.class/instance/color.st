@@ -1,4 +1,0 @@
-private
-color
-
-	^ Color red

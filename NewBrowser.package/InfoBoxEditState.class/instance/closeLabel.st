@@ -1,3 +1,0 @@
-accessing
-closeLabel
-	^ closeLabel

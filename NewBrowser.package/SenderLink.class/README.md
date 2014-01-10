@@ -1,1 +1,0 @@
-I represent a navigation through the senders of the current selector

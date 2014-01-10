@@ -1,4 +1,0 @@
-*NewBrowser
-lastModificationTime
-
-	^ self timeStamp

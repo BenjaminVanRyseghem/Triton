@@ -1,1 +1,0 @@
-I am an info box exposing the class definition of the currently selected class

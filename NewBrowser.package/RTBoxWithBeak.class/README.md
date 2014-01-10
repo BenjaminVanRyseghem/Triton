@@ -1,1 +1,0 @@
-I am a Roassal element used to draw a box with a beak for a better looking popup

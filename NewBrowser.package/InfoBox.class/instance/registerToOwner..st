@@ -1,2 +1,0 @@
-protocol
-registerToOwner: anOwner

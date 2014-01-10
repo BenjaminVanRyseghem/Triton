@@ -1,1 +1,0 @@
-I am a data object representing the current context of a browser

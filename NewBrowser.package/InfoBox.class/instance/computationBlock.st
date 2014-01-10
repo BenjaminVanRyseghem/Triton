@@ -1,4 +1,0 @@
-accessing
-computationBlock
-
-	^ computationBlock value

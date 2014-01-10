@@ -1,1 +1,0 @@
-I am a generic link representing a navigation thanks to a contextual info box

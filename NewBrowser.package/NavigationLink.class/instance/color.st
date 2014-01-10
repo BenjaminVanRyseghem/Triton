@@ -1,4 +1,0 @@
-ui
-color
-
-	^ Color black

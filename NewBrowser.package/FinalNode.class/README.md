@@ -1,1 +1,0 @@
-I am a special node found exclusively at the end of the chain

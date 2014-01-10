@@ -1,4 +1,0 @@
-accessing
-defaultTitle
-
-	^ defaultTitle value

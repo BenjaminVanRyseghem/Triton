@@ -1,4 +1,0 @@
-accessing
-browsedClass
-
-	^ class value

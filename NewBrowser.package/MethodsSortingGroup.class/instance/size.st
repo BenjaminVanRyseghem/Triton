@@ -1,4 +1,0 @@
-protocol
-size
-
-	^ items size

@@ -1,4 +1,0 @@
-accessing
-methodBar
-
-	^ bar methodBar

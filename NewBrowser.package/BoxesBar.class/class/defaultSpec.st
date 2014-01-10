@@ -1,4 +1,0 @@
-specs
-defaultSpec
-
-	^ #(model specLayout)
