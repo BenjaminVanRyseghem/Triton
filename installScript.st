@@ -1,4 +1,3 @@
-"
 | repo names currentVersions toLoad |
 
 
@@ -29,4 +28,3 @@ toLoad do: [ :name || version |
 	[ version load ]
 		on: MCMergeOrLoadWarning
 		do: [ :ex | [ ex load  ] on: MCNoChangesException do: [] ] ].
-"
