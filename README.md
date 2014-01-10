@@ -3,19 +3,27 @@ Triton
 
 A prototype of a new browser for Pharo
 
-### Getting started
+## Getting started
+
+### Fresh image
 
 You can download the latests Triton image [here] (http://ezial.dyndns.org:9095/job/Triton/lastSuccessfulBuild/artifact/Triton.zip).
 
-### How to
+### Existing image
+
+With this [script](https://raw.github.com/BenjaminVanRyseghem/Triton/master/install_Triton.sh) you can load Triton in an existing image.
+
+    ./install_Triton Pharo.image
+
+## How to
 
 To open the new browser, simply evaluate:
 
     TritonBrowser new openWithSpec
     
-### Tips
+## Tips
 
-#### Shortcuts
+### Shortcuts
 Some shortcuts are already available (even if not documented)
 
 - `Command+shift+$P`: open the packages list
@@ -25,7 +33,7 @@ Some shortcuts are already available (even if not documented)
 - `Command+N, Command+T`: add a new protocol
 - `Command+F, Command+C`: open class finder
 
-#### Snippets
+### Snippets
 
 To open a button opening a `NewBrowser`
 
