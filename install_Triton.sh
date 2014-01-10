@@ -12,6 +12,8 @@ curl -o triton.zip -L https://github.com/BenjaminVanRyseghem/Triton/archive/mast
 unzip -u spec.zip
 unzip -u triton.zip
 
+curl get.pharo.org/vm | bash
+
 IMAGE=$PWD/$1
 SCRIPT=`cat script.st`
 
