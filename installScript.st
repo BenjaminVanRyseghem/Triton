@@ -1,10 +1,8 @@
 | repo names currentVersions toLoad |
 
-
-
 [ [ Gofer it
-	smalltalkhubUser: 'ObjectProfile' project: 'Roassal2';
-	package: 'Roassal2';
+	smalltalkhubUser: 'Pharo' project: 'Phar30Inbox';
+	package: 'SLICE-Issue-12619-3-minor-fixes';
 	package: 'Trachel';
 	package: 'Roassal2Spec';
 	load ]
@@ -13,6 +11,15 @@
 	on: MCNoChangesException 
 	do: [] .
 
+[ [ Gofer it
+	smalltalkhubUser: 'ObjectProfile' project: 'Roassal2';
+	package: 'Roassal2';
+	package: 'LICE-Issue-12620-Issue-in-AbstractTool';
+	load ]
+	on: MCMergeOrLoadWarning
+	do: [ :ex | ex merge ] ] 
+	on: MCNoChangesException 
+	do: [] .
 
 repo := MCFileTreeRepository new directory: '.' asFileReference.
 
