@@ -1,0 +1,3 @@
+accessing
+announcementToRefreshOn: anAnnouncementClass
+	announcementToRefreshOn value: anAnnouncementClass

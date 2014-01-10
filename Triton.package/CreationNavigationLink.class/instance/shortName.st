@@ -1,0 +1,4 @@
+private
+shortName
+
+	^ 'CNL'

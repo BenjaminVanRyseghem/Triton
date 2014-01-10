@@ -1,0 +1,1 @@
+I am a link representing the navigation to an object freshly created (like a class or a method)

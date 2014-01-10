@@ -1,0 +1,3 @@
+accessing
+announcementToRefreshOn
+	^ announcementToRefreshOn value
