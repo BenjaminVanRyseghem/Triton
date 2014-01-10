@@ -3,8 +3,7 @@
 [ [ Gofer it
 	smalltalkhubUser: 'Pharo' project: 'Pharo30Inbox';
 	package: 'SLICE-Issue-12619-3-minor-fixes';
-	package: 'Trachel';
-	package: 'Roassal2Spec';
+	package: 'SLICE-Issue-12620-Issue-in-AbstractTool';
 	load ]
 	on: MCMergeOrLoadWarning
 	do: [ :ex | ex merge ] ] 
@@ -14,7 +13,8 @@
 [ [ Gofer it
 	smalltalkhubUser: 'ObjectProfile' project: 'Roassal2';
 	package: 'Roassal2';
-	package: 'LICE-Issue-12620-Issue-in-AbstractTool';
+	package: 'Trachel';
+	package: 'Roassal2Spec';
 	load ]
 	on: MCMergeOrLoadWarning
 	do: [ :ex | ex merge ] ] 
