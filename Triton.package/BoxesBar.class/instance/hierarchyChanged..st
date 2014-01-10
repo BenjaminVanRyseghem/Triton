@@ -1,4 +1,4 @@
-registring
+actions
 hierarchyChanged: anItem
 
 	self

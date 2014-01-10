@@ -1,4 +1,4 @@
-registring
+actions
 implementorChanged: anItem
 
 	self

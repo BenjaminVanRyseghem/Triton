@@ -1,8 +1,8 @@
 protocol
 title
 
-	^ class value
-		ifNil: [ 'New Browser' ]
+	^ self browsedClass
+		ifNil: [ 'Triton Browser' ]
 		ifNotNil: [ :klass | method value
 			ifNil: [ klass name ]
 			ifNotNil: [ :selector |

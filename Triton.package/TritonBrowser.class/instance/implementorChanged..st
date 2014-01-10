@@ -3,8 +3,10 @@ implementorChanged: anItem
 	| aClass | 
 	
 	aClass := anItem methodClass.
+	self browsedClass = aClass ifTrue: [ ^ self ].
+	
 	package value: aClass package.
-	class value: aClass theNonMetaClass.
+	self browsedClass: aClass theNonMetaClass.
 	classSide value: aClass isMeta.
 	protocol value: anItem protocol.
 	method value: anItem selector.

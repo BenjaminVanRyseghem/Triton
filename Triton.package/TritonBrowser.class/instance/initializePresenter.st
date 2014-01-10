@@ -4,10 +4,15 @@ initializePresenter
 	package whenChangedDo: [ :p |
 		p
 			ifNil: [ packageButton label: 'Package' ]
-			ifNotNil: [ packageButton label: p name asString ] ].
+			ifNotNil: [ packageButton label: p name asString ].
+		self browsedClass: nil.
+		classButton enabled: p isNotNil ].
 	
 	class whenChangedDo: [ :c |
 		protocol value: nil.
+		protocolButton enabled: c isNotNil.
+		methodButton enabled: c isNotNil.
+		
 		c
 			ifNil: [ 
 				classButton 

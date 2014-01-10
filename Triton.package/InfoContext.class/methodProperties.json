@@ -1,10 +1,12 @@
 {
 	"class" : {
-		"package:klass:protocol:method:" : "BenjaminVanRyseghem 1/5/2014 03:09" },
+		"package:klass:protocol:method:classSide:" : "BenjaminVanRyseghem 1/10/2014 17:01" },
 	"instance" : {
 		"classAdded" : "BenjaminVanRyseghem 1/8/2014 01:03",
 		"classModified" : "BenjaminVanRyseghem 1/8/2014 01:03",
 		"classRemoved" : "BenjaminVanRyseghem 1/8/2014 01:04",
+		"classSide" : "BenjaminVanRyseghem 1/10/2014 17:01",
+		"classSide:" : "BenjaminVanRyseghem 1/10/2014 17:01",
 		"dirty" : "BenjaminVanRyseghem 1/8/2014 00:24",
 		"dirty:" : "BenjaminVanRyseghem 1/8/2014 00:24",
 		"isDirty" : "BenjaminVanRyseghem 1/8/2014 01:04",

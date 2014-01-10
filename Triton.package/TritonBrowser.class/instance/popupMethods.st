@@ -16,7 +16,7 @@ popupMethods
 					icon: Smalltalk ui icons smallAddIcon;
 					action: [ self halt ] ] ];
 		addGroup: [ :g |
-			((class value methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
+			((self browsedClass methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
 				g addItem: [ :item | 
 					item 
 						name: e selector;
@@ -25,7 +25,7 @@ popupMethods
 							classSide value: false.
 							self registerManualNavigation ] ] ] ];
 		addGroup: [ :g |
-			((class value theMetaClass methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
+			((self browsedClass theMetaClass methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
 				g addItem: [ :item | 
 					item 
 						name: e selector;

@@ -4,7 +4,9 @@ trachelShapeFor: anElement
 	ex := (self widthFor: anElement) @ (self heightFor: anElement).
 	rec := (anElement position - (ex / 2)) extent: ex.
 
-	shape := TRBoxWithBeakShape new.
+	shape := TRBoxWithBeakShape new
+		beakUp: self beakUp;
+		yourself.
 	shape fromRectangle: rec color: (self colorFor: anElement).
 	shape strokePaint: (self borderColorFor: anElement).
 	^ shape

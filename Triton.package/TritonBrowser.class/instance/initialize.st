@@ -12,7 +12,7 @@ initialize
 	
 	timeline whenChangedDo: [ self updateTimeline ].
 	
+	barManager := BarManager on: self.
 	super initialize.
-	bar := BarManager on: self.
 	
 	self registerToEvents

@@ -1,4 +1,4 @@
 protocol
 addMethodBox
 
-	bar addBox: MethodInfoBox new
+	barManager addBox: MethodInfoBox new

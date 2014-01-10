@@ -1,12 +1,21 @@
 initialize
 updateViewFor: aBox
+	| newText |
 
-	process ifNotNil: [ process terminate ].
-	process := [ 
-		aBox
-			ifNil: [ 
-				title text: ''.
-				text text: '' ]
-			ifNotNil: [ 
-				title text: aBox computedTitle.
-				text text: aBox computedItems ] ] fork.
+	newText := aBox 
+		ifNil: [ '' ]
+		ifNotNil: [ aBox computedItems ].
+		
+	text hasUnacceptedEdits 
+		ifTrue: [ | pending |
+			pending := text pendingText.
+			text text: newText.
+			text pendingText: pending.
+			text hasEditingConflicts: true.
+			^ self ].
+		
+	aBox
+		ifNil: [ title text: '' ]
+		ifNotNil: [ title text: aBox computedTitle ].
+		
+	text text: newText.

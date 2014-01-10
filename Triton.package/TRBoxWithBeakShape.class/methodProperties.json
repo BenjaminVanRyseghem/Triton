@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"computePath" : "BenjaminVanRyseghem 1/8/2014 17:59" } }
+		"beakUp" : "BenjaminVanRyseghem 1/10/2014 15:00",
+		"beakUp:" : "BenjaminVanRyseghem 1/10/2014 15:23",
+		"buildBeakDownWith:" : "BenjaminVanRyseghem 1/10/2014 15:04",
+		"buildBeakUpWith:" : "BenjaminVanRyseghem 1/10/2014 15:34",
+		"computePath" : "BenjaminVanRyseghem 1/10/2014 15:03" } }

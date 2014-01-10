@@ -18,8 +18,7 @@ popupClasses
 						name: (self buildTabbedNameOf: e in: hierarchy);
 						icon: (self classIconFor: e) form;
 						action: [ 
-							class value: e.
-							self registerManualNavigation ] ] ] ].
+							(self browsedClass: e) ifTrue: [ self registerManualNavigation ] ] ] ] ].
 			
 	menu openWithSpecAt: classButton widget widget bottomLeft.
 	menu applyTo: self.

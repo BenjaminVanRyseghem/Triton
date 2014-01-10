@@ -1,4 +1,4 @@
 accessing
 classBar
 
-	^ bar classBar
+	^ barManager classBar

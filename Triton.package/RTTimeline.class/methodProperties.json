@@ -2,12 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"clickOn:" : "BenjaminVanRyseghem 1/10/2014 16:39",
 		"colorFor:" : "BenjaminVanRyseghem 1/8/2014 21:44",
 		"colorForLink:" : "BenjaminVanRyseghem 1/8/2014 21:44",
 		"distanceBetweenNodes" : "BenjaminVanRyseghem 1/8/2014 15:03",
-		"draw" : "BenjaminVanRyseghem 1/8/2014 21:44",
+		"draw" : "BenjaminVanRyseghem 1/10/2014 17:06",
 		"drawTimelineOn:canvas:" : "BenjaminVanRyseghem 1/8/2014 21:33",
-		"popupFor:event:on:" : "BenjaminVanRyseghem 1/8/2014 20:47",
+		"moveCamera" : "BenjaminVanRyseghem 1/10/2014 15:48",
+		"popupFor:event:" : "BenjaminVanRyseghem 1/10/2014 16:56",
+		"popupForEdge:node:event:" : "BenjaminVanRyseghem 1/10/2014 16:22",
 		"sizeFor:" : "BenjaminVanRyseghem 1/8/2014 15:00",
 		"timeline" : "BenjaminVanRyseghem 1/8/2014 14:32",
 		"timeline:" : "BenjaminVanRyseghem 1/8/2014 21:19",

@@ -4,7 +4,7 @@ addProtocol
 	| newName |
 	
 	self okToChange ifFalse: [^ self].
-	class value ifNil: [^ self].
+	self browsedClass ifNil: [^ self].
 
 	newName := abstractTool 
 		addCategoryIn: self actualClass 

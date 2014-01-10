@@ -1,12 +1,12 @@
 {
-	"category" : "Triton-Navigation",
+	"category" : "Triton",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"beakUp" ],
 	"name" : "RTBoxWithBeak",
 	"pools" : [
 		 ],

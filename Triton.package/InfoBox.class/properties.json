@@ -4,14 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "BenjaminVanRyseghem 1/10/2014 10:36",
 	"instvars" : [
 		"computationBlock",
 		"defaultTitle",
 		"title",
 		"state",
 		"context",
-		"action" ],
+		"action",
+		"announcementToRefreshOn" ],
 	"name" : "InfoBox",
 	"pools" : [
 		 ],

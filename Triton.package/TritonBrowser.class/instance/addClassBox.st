@@ -1,4 +1,4 @@
 protocol
 addClassBox
 
-	bar addBox: ClassInfoBox new
+	barManager addBox: ClassInfoBox new

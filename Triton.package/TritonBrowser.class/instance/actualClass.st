@@ -2,6 +2,6 @@ protocol
 actualClass
 
 	^ (classSide value
-			ifTrue: [ class value theMetaClass ]
-			ifFalse: [ class value theNonMetaClass ])
+			ifTrue: [ self browsedClass theMetaClass ]
+			ifFalse: [ self browsedClass theNonMetaClass ])
 	

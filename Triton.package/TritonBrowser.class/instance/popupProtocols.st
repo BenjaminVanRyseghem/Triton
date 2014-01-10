@@ -2,7 +2,7 @@ private
 popupProtocols
 	| menu |
 
-	class value ifNil: [ ^ self ].
+	self browsedClass ifNil: [ ^ self ].
 	menu := MenuModel new
 		addGroup: [ :g |
 			g addItem: [ :item | 
@@ -13,10 +13,10 @@ popupProtocols
 					action: [ self addProtocol ] ] ];
 		addGroup: [ :g |	| protocols |
 			protocols := Set new.
-			class value hasMethods ifTrue: [ 
-				protocols addAll: class value protocols ].
-			class value theMetaClass hasMethods ifTrue: [ 
-				protocols addAll: class value theMetaClass protocols ].
+			self browsedClass hasMethods ifTrue: [ 
+				protocols addAll: self browsedClass protocols ].
+			self browsedClass theMetaClass hasMethods ifTrue: [ 
+				protocols addAll: self browsedClass theMetaClass protocols ].
 			protocols asArray sorted do: [ :e |
 				g addItem: [ :item | 
 					item 

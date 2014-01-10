@@ -1,4 +1,4 @@
 accessing
 methodBar
 
-	^ bar methodBar
+	^ barManager methodBar

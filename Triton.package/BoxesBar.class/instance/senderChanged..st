@@ -1,4 +1,4 @@
-registring
+actions
 senderChanged: anItem
 
 	self

@@ -4,6 +4,6 @@ newContext
 	
 	self updateTitle.
 	context := self newInfoBoxContext.
-	bar context: context.
+	barManager context: context.
 	
 	^ context

@@ -6,7 +6,11 @@ initializeWidgets
 	button := self newButton.
 	
 	list 
-		whenSelectedItemChanged: [ :item :index | self box action cull: item cull: index ];
+		autoDeselect: false;
+		whenListChanged: [ list setSelectedIndex: 0 ];
+		whenSelectedItemChanged: [ :item :index | (item notNil and: [ index ~= 0 ]) 
+			ifFalse: [ self haltOnce ]
+			ifTrue: [ self haltOnce.self box action cull: item cull: index ] ];
 		backgroundColorBlock: [ :item :index | self box backgroundColorFor: item at: index ].
 	
 	button 

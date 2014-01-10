@@ -10,7 +10,8 @@
 		"klass",
 		"method",
 		"package",
-		"protocol" ],
+		"protocol",
+		"classSide" ],
 	"name" : "InfoContext",
 	"pools" : [
 		 ],

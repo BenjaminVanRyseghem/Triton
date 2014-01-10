@@ -3,6 +3,7 @@ newInfoBoxContext
 
 	^ InfoContext
 		package: package value
-		klass: class value
+		klass: self browsedClass
 		protocol: protocol value
 		method: method value
+		classSide: classSide value
