@@ -26,6 +26,7 @@ To open the new browser, simply evaluate:
 - Triton shortcuts manager: allow on to redefine any shortcut.
 - A smart box for messages sent in the current method
 - A concept of project (close to Juraj addition in Nautilus)
+- Add support for keyboard naviagtion in boxes
     
 ## Tips
 
