@@ -1,4 +1,4 @@
-Triton
+[![Triton](logo/logo128x128.png)](https://github.com/BenjaminVanRyseghem/Triton) Triton
 ==========
 
 A prototype of a new browser for Pharo
