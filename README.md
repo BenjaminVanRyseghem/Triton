@@ -35,7 +35,7 @@ Some shortcuts are already available (even if not documented)
 
 ### Snippets
 
-To open a button opening a `NewBrowser`
+To open a button opening a `TritonBrowser`
 
     ButtonModel new
     	action: [ TritonBrowser new openWithSpec ];
