@@ -1,0 +1,4 @@
+*Triton
+lastModificationTime
+
+	^ self timeStamp

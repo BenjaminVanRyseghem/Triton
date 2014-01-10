@@ -1,0 +1,4 @@
+*Triton
+form
+
+	^ self labelGraphic
