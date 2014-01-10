@@ -1,17 +1,17 @@
-NewBrowser
+Triton
 ==========
 
 A prototype of a new browser for Pharo
 
 ### Getting started
 
-You can download the latests NewBrowser image [here] (http://ezial.dyndns.org:9095/view/My%20branches/job/NewBrowser/lastSuccessfulBuild/artifact/NewBrowser.zip).
+You can download the latests Triton image [here] (http://ezial.dyndns.org:9095/job/Triton/lastSuccessfulBuild/artifact/Triton.zip).
 
 ### How to
 
 To open the new browser, simply evaluate:
 
-    NewBrowser new openWithSpec
+    TritonBrowser new openWithSpec
     
 ### Tips
 
@@ -30,6 +30,6 @@ Some shortcuts are already available (even if not documented)
 To open a button opening a `NewBrowser`
 
     ButtonModel new
-    	action: [ NewBrowser new openWithSpec ];
-    	label: 'Open NewBrowser';
+    	action: [ TritonBrowser new openWithSpec ];
+    	label: 'Open TritonBrowser';
     	openWithSpec
