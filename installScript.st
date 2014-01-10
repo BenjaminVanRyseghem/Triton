@@ -1,7 +1,7 @@
 | repo names currentVersions toLoad |
 
 [ [ Gofer it
-	smalltalkhubUser: 'Pharo' project: 'Phar30Inbox';
+	smalltalkhubUser: 'Pharo' project: 'Pharo30Inbox';
 	package: 'SLICE-Issue-12619-3-minor-fixes';
 	package: 'Trachel';
 	package: 'Roassal2Spec';
