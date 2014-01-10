@@ -1,0 +1,1 @@
+I represent a whole chain of navigation nodes linked by navigation links.

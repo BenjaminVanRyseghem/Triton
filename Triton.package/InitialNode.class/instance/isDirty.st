@@ -1,0 +1,4 @@
+protocol
+isDirty
+
+	^ false

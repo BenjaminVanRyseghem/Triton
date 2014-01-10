@@ -1,0 +1,4 @@
+accessing
+classBar
+
+	^ bar classBar

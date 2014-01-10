@@ -1,0 +1,4 @@
+private
+distanceBetweenNodes
+
+	^ 50

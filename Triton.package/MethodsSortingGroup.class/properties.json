@@ -1,0 +1,16 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"color",
+		"items",
+		"start" ],
+	"name" : "MethodsSortingGroup",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

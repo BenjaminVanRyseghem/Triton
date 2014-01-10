@@ -1,0 +1,28 @@
+{
+	"category" : "Triton",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"bar",
+		"classButton",
+		"package",
+		"packageButton",
+		"protocolButton",
+		"class",
+		"protocol",
+		"text",
+		"method",
+		"methodButton",
+		"abstractTool",
+		"classSide",
+		"nautilusCache",
+		"timeline",
+		"timelineWidget" ],
+	"name" : "TritonBrowser",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

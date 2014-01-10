@@ -1,0 +1,17 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"button",
+		"list",
+		"title",
+		"process" ],
+	"name" : "InfoBoxListState",
+	"pools" : [
+		 ],
+	"super" : "InfoBoxState",
+	"type" : "normal" }

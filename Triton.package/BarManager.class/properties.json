@@ -1,0 +1,16 @@
+{
+	"category" : "Triton",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"classBar",
+		"methodBar",
+		"browser" ],
+	"name" : "BarManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I am a special node found exclusively at the beginning of the chain

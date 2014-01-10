@@ -1,0 +1,1 @@
+I am an abstract info box providing information about the currently selected class

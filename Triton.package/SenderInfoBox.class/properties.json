@@ -1,0 +1,14 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SenderInfoBox",
+	"pools" : [
+		 ],
+	"super" : "QueryInfoBox",
+	"type" : "normal" }

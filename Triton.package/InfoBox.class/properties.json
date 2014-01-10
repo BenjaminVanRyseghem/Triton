@@ -1,0 +1,19 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"computationBlock",
+		"defaultTitle",
+		"title",
+		"state",
+		"context",
+		"action" ],
+	"name" : "InfoBox",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

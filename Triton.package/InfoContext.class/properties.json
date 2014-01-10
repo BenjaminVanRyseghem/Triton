@@ -1,0 +1,18 @@
+{
+	"category" : "Triton-Context",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"dirty",
+		"klass",
+		"method",
+		"package",
+		"protocol" ],
+	"name" : "InfoContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

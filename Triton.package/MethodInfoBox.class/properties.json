@@ -1,0 +1,14 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"inputMethod" ],
+	"name" : "MethodInfoBox",
+	"pools" : [
+		 ],
+	"super" : "InfoBox",
+	"type" : "normal" }

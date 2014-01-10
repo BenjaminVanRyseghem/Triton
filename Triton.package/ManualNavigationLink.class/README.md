@@ -1,0 +1,1 @@
+I am representing a manual navigation within a browser

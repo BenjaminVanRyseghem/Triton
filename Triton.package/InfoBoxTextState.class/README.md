@@ -1,0 +1,1 @@
+I am a state used to render the item as a text

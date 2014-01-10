@@ -1,0 +1,14 @@
+{
+	"category" : "Triton-Navigation",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenjaminVanRyseghem 1/8/2014 00:48",
+	"instvars" : [
+		 ],
+	"name" : "SenderLink",
+	"pools" : [
+		 ],
+	"super" : "ContextualNavigationLink",
+	"type" : "normal" }

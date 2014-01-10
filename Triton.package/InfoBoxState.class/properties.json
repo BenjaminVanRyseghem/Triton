@@ -1,0 +1,14 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"box" ],
+	"name" : "InfoBoxState",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }

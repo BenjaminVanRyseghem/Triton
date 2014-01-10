@@ -1,0 +1,1 @@
+I am a box presenting the class hierarchy of the currently selected class

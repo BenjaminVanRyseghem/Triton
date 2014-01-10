@@ -1,0 +1,1 @@
+I am used to compute the shape used in RTBoxWithBeak
