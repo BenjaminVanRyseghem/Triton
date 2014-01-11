@@ -1,6 +1,4 @@
 private
 clickOn: aNode
 
-	self 
-		triggerEvent: #nodeClicked
-		with: aNode
+	timeline clickOn: aNode

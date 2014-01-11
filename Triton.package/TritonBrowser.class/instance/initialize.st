@@ -8,7 +8,10 @@ initialize
 	classSide := false asValueHolder.
 	abstractTool := AbstractTool new.
 	nautilusCache := NautilusUI new.
-	timeline := Timeline new.
+	timeline := Timeline new
+		when: #nodeClicked
+		send: #historyNodeClicked:
+		to: self.
 	
 	timeline whenChangedDo: [ self updateTimeline ].
 	

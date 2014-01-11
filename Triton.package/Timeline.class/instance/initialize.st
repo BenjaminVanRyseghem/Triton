@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 
-	nodes := OrderedCollection new asValueHolder.
-	nodes add: InitialNode new
+	first := InitialNode new asValueHolder.
+	last := first value asValueHolder.

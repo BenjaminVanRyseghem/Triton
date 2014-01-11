@@ -1,4 +1,4 @@
 private
 lastContext
 
-	^ self nodes last context
+	^ last value context

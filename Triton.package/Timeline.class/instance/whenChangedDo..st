@@ -1,4 +1,4 @@
 protocol
 whenChangedDo: aBlock
 
-	nodes whenChangedDo: aBlock
+	last whenChangedDo: aBlock

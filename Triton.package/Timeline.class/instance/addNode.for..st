@@ -1,13 +1,12 @@
 private
 addNode: aNode for: aLinkClass
-	| last link |
+	| link |
 	
-	last := nodes last.
 	link := aLinkClass
-		from: last
+		from: last value
 		to: aNode.
 		
-	nodes addLast: aNode.
+	last value: aNode.
 	^ aNode
 	
 

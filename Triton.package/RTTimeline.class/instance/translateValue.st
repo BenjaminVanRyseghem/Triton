@@ -4,6 +4,6 @@ translateValue
 	
 	offset := canvas extent x // 2 - 30.
 	
-	^ self timeline nodes size * self distanceBetweenNodes < offset
+	^ self timeline size * self distanceBetweenNodes < offset
 		ifTrue: [ 0 @ 0 ]
 		ifFalse: [ "offset negated" 0 @ 0 ]

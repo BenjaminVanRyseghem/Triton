@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"clickOn:" : "BenjaminVanRyseghem 1/10/2014 16:39",
-		"colorFor:" : "BenjaminVanRyseghem 1/8/2014 21:44",
+		"clickOn:" : "BenjaminVanRyseghem 1/11/2014 17:00",
+		"colorFor:" : "BenjaminVanRyseghem 1/11/2014 17:05",
 		"colorForLink:" : "BenjaminVanRyseghem 1/8/2014 21:44",
 		"distanceBetweenNodes" : "BenjaminVanRyseghem 1/8/2014 15:03",
-		"draw" : "BenjaminVanRyseghem 1/10/2014 17:06",
+		"draw" : "BenjaminVanRyseghem 1/11/2014 16:50",
 		"drawTimelineOn:canvas:" : "BenjaminVanRyseghem 1/8/2014 21:33",
-		"moveCamera" : "BenjaminVanRyseghem 1/10/2014 15:48",
+		"moveCamera" : "BenjaminVanRyseghem 1/11/2014 16:32",
 		"popupFor:event:" : "BenjaminVanRyseghem 1/10/2014 16:56",
 		"popupForEdge:node:event:" : "BenjaminVanRyseghem 1/11/2014 15:57",
 		"sizeFor:" : "BenjaminVanRyseghem 1/8/2014 15:00",
 		"timeline" : "BenjaminVanRyseghem 1/8/2014 14:32",
 		"timeline:" : "BenjaminVanRyseghem 1/8/2014 21:19",
-		"translateValue" : "BenjaminVanRyseghem 1/8/2014 22:36" } }
+		"translateValue" : "BenjaminVanRyseghem 1/11/2014 16:50" } }

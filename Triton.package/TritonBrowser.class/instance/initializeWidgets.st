@@ -45,7 +45,6 @@ initializeWidgets
 
 	rtTimeline := RTTimeline new
 		timeline: timeline;
-		when: #nodeClicked send: #historyNodeClicked: to: self;
 		yourself.
 		
 	timelineWidget script: [ :view :canvas | rtTimeline drawTimelineOn: view canvas: canvas ].

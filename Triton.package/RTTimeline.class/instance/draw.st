@@ -1,14 +1,13 @@
 protocol
 draw
-	| rtNodes nodes edges |
+	| size rtNodes edges |
 	
 	view elements do: [ :e | view removeElement: e ].
 	
-	nodes := timeline nodes copy.
-	rtNodes := Array new: nodes size.
-	edges := Array new: nodes size - 1.
-	nodes
-		doWithIndex: [ :n :i | 
+	size := timeline size.
+	rtNodes := Array new: size.
+	edges := Array new: size - 1.
+	timeline nodesDoWithIndex: [ :n :i | 
 			| rtNode |
 			rtNode := RTElement new
 				+
