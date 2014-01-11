@@ -4,6 +4,10 @@
 	"instance" : {
 		"beakUp" : "BenjaminVanRyseghem 1/10/2014 15:00",
 		"beakUp:" : "BenjaminVanRyseghem 1/10/2014 15:23",
-		"buildBeakDownWith:" : "BenjaminVanRyseghem 1/10/2014 15:04",
-		"buildBeakUpWith:" : "BenjaminVanRyseghem 1/10/2014 15:34",
+		"buildBeakDownWith:" : "BenjaminVanRyseghem 1/11/2014 15:35",
+		"buildBeakDownWithHeightBigger:" : "BenjaminVanRyseghem 1/11/2014 15:55",
+		"buildBeakDownWithWidthBigger:" : "BenjaminVanRyseghem 1/11/2014 15:58",
+		"buildBeakUpWith:" : "BenjaminVanRyseghem 1/11/2014 15:38",
+		"buildBeakUpWithHeightBigger:" : "BenjaminVanRyseghem 1/11/2014 15:54",
+		"buildBeakUpWithWidthBigger:" : "BenjaminVanRyseghem 1/11/2014 15:47",
 		"computePath" : "BenjaminVanRyseghem 1/10/2014 15:03" } }

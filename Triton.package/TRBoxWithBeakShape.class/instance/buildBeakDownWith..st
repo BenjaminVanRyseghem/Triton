@@ -1,15 +1,6 @@
 private
 buildBeakDownWith: aBuilder
 
-	aBuilder
-		absolute;
-		moveTo: -0.85 @ -0.85;
-		lineTo: 0.85 @ -0.85;
-		lineTo: 0.85 @ 0.85;
-		
-		lineTo: 0.15@ 0.85;
-		lineTo: 0 @ 1;
-		lineTo: -0.15@ 0.85;
-		
-		lineTo: -0.85 @ 0.85;
-		lineTo: -0.85 @ -0.85
+	self width >= self height
+		ifTrue: [ self buildBeakDownWithWidthBigger: aBuilder ]
+		ifFalse: [ self buildBeakDownWithHeightBigger: aBuilder ]
