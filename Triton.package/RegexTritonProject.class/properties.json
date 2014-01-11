@@ -1,0 +1,14 @@
+{
+	"category" : "Triton",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"regex" ],
+	"name" : "RegexTritonProject",
+	"pools" : [
+		 ],
+	"super" : "TritonProject",
+	"type" : "normal" }

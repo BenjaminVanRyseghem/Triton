@@ -1,0 +1,14 @@
+{
+	"category" : "Triton",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TritonProject",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

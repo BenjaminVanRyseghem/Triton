@@ -6,7 +6,7 @@ senderChanged: anItem
 	(self browsedClass = aClass and: [ anItem selector = method value ])
 		ifTrue: [ ^ self ].
 	
-	package value: aClass package.
+	package value: aClass packageTag.
 	self browsedClass: aClass theNonMetaClass.
 	classSide value: aClass isMeta.
 	protocol value: anItem protocol.

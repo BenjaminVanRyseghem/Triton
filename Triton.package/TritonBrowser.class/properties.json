@@ -20,7 +20,8 @@
 		"nautilusCache",
 		"timeline",
 		"timelineWidget",
-		"barManager" ],
+		"barManager",
+		"project" ],
 	"name" : "TritonBrowser",
 	"pools" : [
 		 ],

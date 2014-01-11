@@ -10,7 +10,7 @@ popupPackages
 					icon: Smalltalk ui icons smallAddIcon;
 					action: [ self halt ] ] ];
 		addGroup: [ :g |
-			RPackageOrganizer default packages sorted do: [ :e |
+			project packages do: [ :e |
 				g addItem: [ :item | 
 					item 
 						name: e name asString;

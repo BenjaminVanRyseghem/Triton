@@ -8,6 +8,6 @@ findClass: aSearchInstance
 
 	aClass ifNil: [ ^ self ].
 
-	self package: aClass package.
+	self package: aClass packageTag.
 	self browsedClass: aClass.
 	self registerManualNavigation

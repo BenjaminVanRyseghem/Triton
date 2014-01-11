@@ -6,6 +6,7 @@ initialize
 	protocol := nil asValueHolder.
 	method := nil asValueHolder.
 	classSide := false asValueHolder.
+	project := RegexTritonProject new.
 	abstractTool := AbstractTool new.
 	nautilusCache := NautilusUI new.
 	timeline := Timeline new

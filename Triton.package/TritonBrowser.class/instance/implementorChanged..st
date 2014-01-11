@@ -5,7 +5,7 @@ implementorChanged: anItem
 	aClass := anItem methodClass.
 	self browsedClass = aClass ifTrue: [ ^ self ].
 	
-	package value: aClass package.
+	package value: aClass packageTag.
 	self browsedClass: aClass theNonMetaClass.
 	classSide value: aClass isMeta.
 	protocol value: anItem protocol.

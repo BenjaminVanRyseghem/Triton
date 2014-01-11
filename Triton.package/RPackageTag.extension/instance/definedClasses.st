@@ -1,0 +1,4 @@
+*Triton
+definedClasses
+
+	^ self classes

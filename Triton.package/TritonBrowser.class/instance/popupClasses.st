@@ -18,6 +18,15 @@ popupClasses
 						name: (self buildTabbedNameOf: e in: hierarchy);
 						icon: (self classIconFor: e) form;
 						action: [ 
+							(self browsedClass: e) ifTrue: [ self registerManualNavigation ] ] ] ] ];
+		addGroup: [ :g || hierarchy |
+			hierarchy := self buildPackageExtensionHierarchyFor: package value.
+			hierarchy sortedElements do: [ :e |
+				g addItem: [ :item | 
+					item 
+						name: (self buildTabbedNameOf: e in: hierarchy);
+						icon: (self classIconFor: e) form;
+						action: [ 
 							(self browsedClass: e) ifTrue: [ self registerManualNavigation ] ] ] ] ].
 			
 	menu openWithSpecAt: classButton widget widget bottomLeft.
