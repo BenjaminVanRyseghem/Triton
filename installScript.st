@@ -8,18 +8,26 @@
 	on: MCMergeOrLoadWarning
 	do: [ :ex | ex merge ] ] 
 	on: MCNoChangesException 
-	do: [] .
+	do: [].
 
 [ [ Gofer it
 	smalltalkhubUser: 'ObjectProfile' project: 'Roassal2';
 	package: 'Roassal2';
 	package: 'Trachel';
+	load ]
+	on: MCMergeOrLoadWarning
+	do: [ :ex | ex merge ] ] 
+	on: MCNoChangesException 
+	do: [].
+
+[ [ Gofer it
+	smalltalkhubUser: 'ObjectProfile' project: 'Roassal2';
 	package: 'Roassal2Spec';
 	load ]
 	on: MCMergeOrLoadWarning
 	do: [ :ex | ex merge ] ] 
 	on: MCNoChangesException 
-	do: [] .
+	do: [].
 
 repo := MCFileTreeRepository new directory: 'spec-master' asFileReference.
 
