@@ -21,8 +21,8 @@ popupMethods
 					item 
 						name: e selector;
 						action: [ 
-							method value: e selector.
 							classSide value: false.
+							method value: e selector.
 							self registerManualNavigation ] ] ] ];
 		addGroup: [ :g |
 			((self browsedClass theMetaClass methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
@@ -30,8 +30,8 @@ popupMethods
 					item 
 						name: e selector;
 						action: [ 
-							method value: e selector.
 							classSide value: true.
+							method value: e selector.
 							self registerManualNavigation ] ] ] ].
 	
 	menu applyTo: self.		
