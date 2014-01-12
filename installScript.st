@@ -23,7 +23,7 @@
 
 repo := MCFileTreeRepository new directory: 'spec-master' asFileReference.
 
-currentVersions := MCWorkingCopy allManagers select: [ :e | (e package name beginsWith: 'SLICE' ) not ] thenCollect: [ :e | e ancestry ancestors first name ].
+currentVersions := MCWorkingCopy allManagers select: [ :e | (e ancestry ancestors) notEmpty ] thenCollect: [ :e | e ancestry ancestors first name ].
 names := repo packageDescriptionsFromReadableFileNames.
 toLoad := names select: [ :e || currentVersion | 
 	currentVersion := e first , '-', e second , '.', e third asString.
@@ -38,7 +38,7 @@ toLoad do: [ :name || version |
 		
 repo := MCFileTreeRepository new directory: 'Triton-master' asFileReference.
 
-currentVersions := MCWorkingCopy allManagers select: [ :e | (e package name beginsWith: 'SLICE' ) not ] thenCollect: [ :e | e ancestry ancestors first name ].
+currentVersions := MCWorkingCopy allManagers select: [ :e | (e ancestry ancestors) notEmpty ) not ] thenCollect: [ :e | e ancestry ancestors first name ].
 names := repo packageDescriptionsFromReadableFileNames.
 toLoad := names select: [ :e || currentVersion | 
 	currentVersion := e first , '-', e second , '.', e third asString.
