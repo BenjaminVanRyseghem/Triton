@@ -1,15 +1,15 @@
 private
 computeBlock
-	| text block |
+	| text compileblock |
 	
 	text := textField getText.
 	text := '[ ', self box argument, text, ' ]'.
-	block := [ Smalltalk compiler 
+	compileblock := [ Smalltalk compiler 
 		source: text;
 		context: nil;
 		receiver: nil;
 		requestor: textField;
 		evaluate ] on: Error do: [ ^ false ].
-	self box computationBlock: block.
+	self box computationBlock: compileblock.
 	
 	^ true
