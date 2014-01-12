@@ -1,7 +1,6 @@
 protocol
-initialize
+initializeData
 
-	super initialize.
 	self defaultTitle: 'Class comment'.
 	self action: [ :text | self inputClass comment: text asString ].
 	self title: [ :class | class name, '''s comment' ].

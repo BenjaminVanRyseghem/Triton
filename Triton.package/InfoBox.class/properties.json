@@ -12,7 +12,8 @@
 		"state",
 		"context",
 		"action",
-		"announcementToRefreshOn" ],
+		"announcementToRefreshOn",
+		"minimized" ],
 	"name" : "InfoBox",
 	"pools" : [
 		 ],

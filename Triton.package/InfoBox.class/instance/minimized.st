@@ -1,0 +1,4 @@
+accessing
+minimized
+
+	^ minimized value

@@ -1,7 +1,5 @@
 initialize
-initialize
-
-	super initialize.
+initializeData
 
 	self defaultTitle: 'Senders'.
 	self title: [ :method | 'Senders of #', method ].

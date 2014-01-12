@@ -4,7 +4,11 @@ notEditableSpec
 	^ SpecLayout composed
 		newColumn: [ :col |
 			col 
-				newRow: #title height: self buttonHeight;
+				newRow:[ :r |
+					r 
+						add: #title;
+						add: #minimizedButton width: self buttonHeight ] 
+				height: self buttonHeight;
 				add: #list
 		];
 	yourself

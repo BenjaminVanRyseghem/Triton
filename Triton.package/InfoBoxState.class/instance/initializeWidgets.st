@@ -1,0 +1,4 @@
+initialize
+initializeWidgets
+
+	self initializeMinimizedButton

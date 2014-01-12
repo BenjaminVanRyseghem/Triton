@@ -1,6 +1,4 @@
 initialize
-initialize
-
-	super initialize.
+initializeData
 
 	self computationBlock: [ :method | self sortDataFor: method ]

@@ -1,8 +1,18 @@
 {
 	"class" : {
-		 },
+		"downArrow" : "BenjaminVanRyseghem 1/11/2014 21:51",
+		"downArrowContents" : "BenjaminVanRyseghem 1/11/2014 21:52",
+		"upArrow" : "BenjaminVanRyseghem 1/11/2014 21:51",
+		"upArrowContents" : "BenjaminVanRyseghem 1/11/2014 21:52" },
 	"instance" : {
 		"box" : "BenjaminVanRyseghem 1/4/2014 12:49",
 		"box:" : "BenjaminVanRyseghem 1/5/2014 01:29",
+		"downIcon" : "BenjaminVanRyseghem 1/11/2014 21:53",
 		"initialize" : "BenjaminVanRyseghem 1/4/2014 12:49",
+		"initializeMinimizedButton" : "BenjaminVanRyseghem 1/11/2014 22:26",
+		"initializeWidgets" : "BenjaminVanRyseghem 1/11/2014 20:35",
+		"maximize" : "BenjaminVanRyseghem 1/11/2014 21:57",
+		"minimize" : "BenjaminVanRyseghem 1/11/2014 21:57",
+		"minimizedButton" : "BenjaminVanRyseghem 1/11/2014 22:15",
+		"upIcon" : "BenjaminVanRyseghem 1/11/2014 21:53",
 		"updateView" : "BenjaminVanRyseghem 1/4/2014 18:30" } }

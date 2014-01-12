@@ -8,7 +8,8 @@ defaultSpec
 				newRow:[ :r |
 					r 
 						add: #title;
-						add: #button width: self buttonHeight ] 
+						add: #button width: self buttonHeight;
+						add: #minimizedButton width: self buttonHeight ] 
 				height: self buttonHeight;
 				add: #list
 		];

@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 18:05",
-		"notEditableSpec" : "BenjaminVanRyseghem 1/6/2014 14:25" },
+		"defaultSpec" : "BenjaminVanRyseghem 1/11/2014 20:37",
+		"notEditableSpec" : "BenjaminVanRyseghem 1/11/2014 20:37" },
 	"instance" : {
 		"button" : "BenjaminVanRyseghem 1/4/2014 12:52",
 		"defaultSpecSelector" : "BenjaminVanRyseghem 1/6/2014 14:23",
 		"initialize" : "BenjaminVanRyseghem 1/4/2014 18:31",
-		"initializeWidgets" : "BenjaminVanRyseghem 1/10/2014 15:11",
+		"initializeWidgets" : "BenjaminVanRyseghem 1/11/2014 20:35",
 		"list" : "BenjaminVanRyseghem 1/4/2014 12:52",
 		"title" : "BenjaminVanRyseghem 1/4/2014 18:05",
 		"updateView" : "BenjaminVanRyseghem 1/4/2014 18:32",

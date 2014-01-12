@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"defaultSpec" : "BenjaminVanRyseghem 1/11/2014 20:39" },
+	"instance" : {
+		"initialize" : "BenjaminVanRyseghem 1/11/2014 20:26",
+		"initializeMinimizedButton" : "BenjaminVanRyseghem 1/11/2014 22:26",
+		"initializeWidgets" : "BenjaminVanRyseghem 1/11/2014 20:35",
+		"title" : "BenjaminVanRyseghem 1/11/2014 20:28",
+		"updateViewFor:" : "BenjaminVanRyseghem 1/11/2014 20:26" } }

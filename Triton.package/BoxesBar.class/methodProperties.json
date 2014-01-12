@@ -2,7 +2,7 @@
 	"class" : {
 		"defaultSpec" : "BenjaminVanRyseghem 1/4/2014 19:08" },
 	"instance" : {
-		"addBox:" : "BenjaminVanRyseghem 1/7/2014 23:21",
+		"addBox:" : "BenjaminVanRyseghem 1/11/2014 21:02",
 		"boxes" : "BenjaminVanRyseghem 1/4/2014 19:09",
 		"boxes:" : "BenjaminVanRyseghem 1/4/2014 19:09",
 		"context:" : "BenjaminVanRyseghem 1/5/2014 03:10",
@@ -17,5 +17,5 @@
 		"registerImplementorBox:" : "BenjaminVanRyseghem 1/7/2014 23:33",
 		"registerSenderBox:" : "BenjaminVanRyseghem 1/7/2014 23:28",
 		"senderChanged:" : "BenjaminVanRyseghem 1/7/2014 23:32",
-		"specLayout" : "BenjaminVanRyseghem 1/4/2014 19:13",
+		"specLayout" : "BenjaminVanRyseghem 1/11/2014 21:10",
 		"updateView" : "BenjaminVanRyseghem 1/5/2014 01:22" } }

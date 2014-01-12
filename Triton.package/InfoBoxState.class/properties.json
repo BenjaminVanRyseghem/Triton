@@ -1,12 +1,14 @@
 {
 	"category" : "Triton-Boxes",
 	"classinstvars" : [
-		 ],
+		"upArrow",
+		"downArrow" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "BenjaminVanRyseghem 1/10/2014 12:36",
 	"instvars" : [
-		"box" ],
+		"box",
+		"minimizedButton" ],
 	"name" : "InfoBoxState",
 	"pools" : [
 		 ],

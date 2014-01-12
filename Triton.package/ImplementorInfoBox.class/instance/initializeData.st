@@ -1,7 +1,5 @@
 initialize
-initialize
-
-	super initialize.
+initializeData
 
 	self defaultTitle: 'Implementors'.
 	self title: [ :method | 'Implementors of #', method ].

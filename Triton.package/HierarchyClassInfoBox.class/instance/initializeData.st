@@ -1,7 +1,5 @@
 private
-initialize
-
-	super initialize.
+initializeData
 
 	self defaultTitle: 'Class Hierarchy'.
 	self title: [ :class | class name, '''s hierarchy' ].

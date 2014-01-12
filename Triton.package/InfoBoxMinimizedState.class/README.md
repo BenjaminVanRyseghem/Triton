@@ -1,0 +1,1 @@
+I am a state used when the box is minimized

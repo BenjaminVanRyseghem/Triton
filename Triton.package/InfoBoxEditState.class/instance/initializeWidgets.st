@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
-
+	
 	ok := self newButton.
 	cancel := self newButton.
 	

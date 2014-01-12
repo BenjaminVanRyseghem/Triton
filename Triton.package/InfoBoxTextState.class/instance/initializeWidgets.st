@@ -1,6 +1,8 @@
 initialization
 initializeWidgets
 
+	super initializeWidgets.
+	
 	title := self newLabel.
 	text := self newText.
 	button := self newButton.
