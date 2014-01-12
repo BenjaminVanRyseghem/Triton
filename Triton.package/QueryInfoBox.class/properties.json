@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"inputClass",
-		"lastSeparators",
 		"queryResult" ],
 	"name" : "QueryInfoBox",
 	"pools" : [

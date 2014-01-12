@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 
-	regex := 'Triton.*'.
+	regex := '.*'.

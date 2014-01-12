@@ -1,4 +1,4 @@
-initialization
+initialize
 initializeWidgets
 
 	super initializeWidgets.

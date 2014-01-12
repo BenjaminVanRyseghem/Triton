@@ -3,7 +3,9 @@ initialize
 
 	super initialize.
 
-	box whenChangedDo: [ :b | 
+	box whenChangedDo: [ :b |
 		text
-			behavior: b inputClass;
+			behavior: (b inputMethod
+				ifNil: [ nil ]
+				ifNotNil: [ b inputClass ]);
 			doItReceiver: b inputClass ]

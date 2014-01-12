@@ -19,6 +19,6 @@ initialize
 		b 
 			ifTrue: [ self showMinimized ]
 			ifFalse: [ self showView ] ].
-	computationBlock whenChangedDo: [ self updateView ].	
+	computationBlock whenChangedDo: [ self updateView ].
 		
-	super initialize.
+	super initialize

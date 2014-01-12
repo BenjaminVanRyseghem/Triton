@@ -1,0 +1,1 @@
+I am a default prject allowing all the packages to be browsed directly

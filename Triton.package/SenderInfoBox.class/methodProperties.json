@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializeData" : "BenjaminVanRyseghem 1/11/2014 20:55",
+		"initialize" : "BenjaminVanRyseghem 1/12/2014 15:40",
 		"registerToOwner:" : "BenjaminVanRyseghem 1/7/2014 23:23",
 		"retrieveDataFor:" : "BenjaminVanRyseghem 1/6/2014 15:04" } }

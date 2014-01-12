@@ -1,1 +1,1 @@
-I am the state used to present information of the box as a list
+I am an a state displaying info as a simple list

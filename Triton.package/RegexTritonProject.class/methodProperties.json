@@ -2,6 +2,7 @@
 	"class" : {
 		"regex:" : "BenjaminVanRyseghem 1/11/2014 19:34" },
 	"instance" : {
-		"initialize" : "BenjaminVanRyseghem 1/11/2014 19:42",
+		"initialize" : "BenjaminVanRyseghem 1/12/2014 17:27",
 		"packages" : "BenjaminVanRyseghem 1/11/2014 19:54",
-		"regex:" : "BenjaminVanRyseghem 1/11/2014 19:34" } }
+		"regex:" : "BenjaminVanRyseghem 1/11/2014 19:34",
+		"setUp" : "BenjaminVanRyseghem 1/12/2014 17:29" } }

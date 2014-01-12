@@ -1,6 +1,6 @@
 protocol
 showView
 
-	state value: (InfoBoxListState new
+	state value: (InfoBoxGroupListState new
 		box: self;
 		yourself)

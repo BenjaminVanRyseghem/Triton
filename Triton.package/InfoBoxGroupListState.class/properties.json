@@ -7,8 +7,8 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "InfoBoxHierarchyListState",
+	"name" : "InfoBoxGroupListState",
 	"pools" : [
 		 ],
-	"super" : "InfoBoxGroupListState",
+	"super" : "InfoBoxListState",
 	"type" : "normal" }

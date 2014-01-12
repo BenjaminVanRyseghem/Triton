@@ -1,13 +1,12 @@
 {
 	"class" : {
-		"defaultSpec" : "BenjaminVanRyseghem 1/11/2014 20:37",
-		"notEditableSpec" : "BenjaminVanRyseghem 1/11/2014 20:37" },
+		 },
 	"instance" : {
-		"button" : "BenjaminVanRyseghem 1/4/2014 12:52",
-		"defaultSpecSelector" : "BenjaminVanRyseghem 1/6/2014 14:23",
-		"initialize" : "BenjaminVanRyseghem 1/4/2014 18:31",
-		"initializeWidgets" : "BenjaminVanRyseghem 1/11/2014 20:35",
-		"list" : "BenjaminVanRyseghem 1/4/2014 12:52",
-		"title" : "BenjaminVanRyseghem 1/4/2014 18:05",
-		"updateView" : "BenjaminVanRyseghem 1/4/2014 18:32",
-		"updateViewFor:" : "BenjaminVanRyseghem 1/4/2014 18:56" } }
+		"button" : "BenjaminVanRyseghem 1/12/2014 16:08",
+		"defaultSpecSelector" : "BenjaminVanRyseghem 1/12/2014 16:08",
+		"initialize" : "BenjaminVanRyseghem 1/12/2014 16:08",
+		"initializeWidgets" : "BenjaminVanRyseghem 1/12/2014 16:09",
+		"list" : "BenjaminVanRyseghem 1/12/2014 16:08",
+		"title" : "BenjaminVanRyseghem 1/12/2014 16:08",
+		"updateView" : "BenjaminVanRyseghem 1/12/2014 16:08",
+		"updateViewFor:" : "BenjaminVanRyseghem 1/12/2014 16:08" } }

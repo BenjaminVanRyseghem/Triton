@@ -3,4 +3,4 @@ initializeWidgets
 
 	super initializeWidgets.
 	
-	text aboutToStyle: true
+	text aboutToStyle: true.
