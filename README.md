@@ -25,10 +25,9 @@ To open the new browser, simply evaluate:
 
 - Triton shortcuts manager: allow on to redefine any shortcut.
 - A smart box for messages sent in the current method
-- A concept of project (close to Juraj addition in Nautilus)
-- Add text to node popups
-- Add a cmd+{digit} to reach a box
-- Add timeline compression
+- Text to node popups
+- A cmd+{digit} to reach a box
+- Timeline compression
     
 ## Tips
 
