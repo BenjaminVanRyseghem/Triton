@@ -1,0 +1,14 @@
+{
+	"category" : "Triton-Shortcuts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ShortcutsManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

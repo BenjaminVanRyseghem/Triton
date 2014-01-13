@@ -1,39 +1,22 @@
 private
 popupMethods
 	| menu |
-	
+
 	protocol value ifNil: [ ^ self ].
 	menu := MenuModel new
-		addGroup: [ :g |
+		addGroup: [ :g | 
 			g addItem: [ :item | 
-				item 
+				item
 					name: 'Add method';
 					icon: Smalltalk ui icons smallAddIcon;
 					action: [ self addMethod ] ].
 			g addItem: [ :item | 
-				item 
+				item
 					name: 'Add class side method';
 					icon: Smalltalk ui icons smallAddIcon;
 					action: [ self halt ] ] ];
-		addGroup: [ :g |
-			((self browsedClass methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
-				g addItem: [ :item | 
-					item 
-						name: e selector;
-						action: [ 
-							classSide value: false.
-							method value: e selector.
-							self registerManualNavigation ] ] ] ];
-		addGroup: [ :g |
-			((self browsedClass theMetaClass methodsInProtocol: protocol value) sorted: [:a :b | a selector <= b selector ]) do: [ :e |
-				g addItem: [ :item | 
-					item 
-						name: e selector;
-						action: [ 
-							classSide value: true.
-							method value: e selector.
-							self registerManualNavigation ] ] ] ].
-	
-	menu applyTo: self.		
+		addGroup: [ :g | self addInstanceSideMethodsIn: g ];
+		addGroup: [ :g | self addClassSideMethodsIn: g ].
+	menu applyTo: self.
 	menu openWithSpecAt: methodButton widget widget bottomLeft.
 	text takeKeyboardFocus

@@ -1,0 +1,1 @@
+I am a pool of shortcuts to let redefinition of shortcuts easy

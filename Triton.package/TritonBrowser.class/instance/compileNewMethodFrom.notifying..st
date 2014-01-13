@@ -1,4 +1,4 @@
-private
+private-actions
 compileNewMethodFrom: newText notifying: notifyier
 	| selector actualProtocol |
 

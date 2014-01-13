@@ -6,6 +6,6 @@ buildPackageMenu
 			group addItem: [ :item |
 				item 
 					name: 'Remove package';
-					shortcut: $x command, $p command;
+					shortcut: shortcuts removePackage;
 					enabled: [ package value notNil ];
 					action: [ self inform: 'Remove package NOT YET IMPLEMENTED' ] ] ]
