@@ -21,7 +21,8 @@
 		"timeline",
 		"timelineWidget",
 		"barManager",
-		"project" ],
+		"project",
+		"shortcuts" ],
 	"name" : "TritonBrowser",
 	"pools" : [
 		 ],

@@ -15,6 +15,7 @@ initialize
 		when: #nodeClicked
 		send: #historyNodeClicked:
 		to: self.
+	shortcuts := ShortcutsManager new.
 	
 	timeline whenChangedDo: [ self updateTimeline ].
 	

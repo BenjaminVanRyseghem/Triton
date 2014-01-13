@@ -1,4 +1,4 @@
-private
+private-context
 newInfoBoxContext
 
 	^ InfoContext

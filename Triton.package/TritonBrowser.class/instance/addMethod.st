@@ -13,7 +13,8 @@ addMethod
 	actualProtocol := protocol value.
 	actualProtocol = AllProtocol defaultName
 		ifTrue: [ actualProtocol := Protocol unclassified ].
-	
+	method value: methodName.
 	text text: methodName.
 	text takeKeyboardFocus.
+	self newContext.
 	timeline methodAdded
