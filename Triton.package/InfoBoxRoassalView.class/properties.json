@@ -1,0 +1,14 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenjaminVanRyseghem 1/22/2014 15:22",
+	"instvars" : [
+		"view" ],
+	"name" : "InfoBoxRoassalView",
+	"pools" : [
+		 ],
+	"super" : "InfoBoxState",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Triton-Boxes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "ClassRoassalVisualisationtInfoBox",
+	"pools" : [
+		 ],
+	"super" : "ClassInfoBox",
+	"type" : "normal" }

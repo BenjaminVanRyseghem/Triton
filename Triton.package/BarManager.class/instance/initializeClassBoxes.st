@@ -4,4 +4,5 @@ initializeClassBoxes
 	classBar 
 		addBox: HierarchyClassInfoBox new;
 		addBox: ClassDefinitionInfoBox new;
-		addBox: ClassCommentInfoBox new
+		addBox: ClassCommentInfoBox new;
+		addBox: ClassRoassalVisualisationtInfoBox new

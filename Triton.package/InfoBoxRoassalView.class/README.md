@@ -1,0 +1,1 @@
+I am a state used to render contextual information thanks to a Roassal view
