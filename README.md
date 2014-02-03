@@ -7,7 +7,7 @@ A prototype of a new browser for Pharo
 
 ### Fresh image
 
-You can download the latests Triton image [here] (http://ezial.dyndns.org:9095/job/Triton/lastSuccessfulBuild/artifact/Triton.zip).
+You can download the latests Triton image [here] (http://benjamin.is-a-geek.com:9095/job/Triton/lastSuccessfulBuild/artifact/Triton.zip).
 
 ### Existing image
 
